@@ -38,7 +38,7 @@ def read_files(args: Namespace) -> list[dict[str, str]]:
 
         with filename.open("r") as f:
             for line in f:
-                data.append(decode(line, filename, args.task, args.full_sentence_scores, images))
+                data.extend(decode(line, filename, args.task, args.full_sentence_scores, images))
 
     del images
 
@@ -67,17 +67,17 @@ def decode(line: str, file_name: pathlib.Path, task: str, full_sentence_scores: 
     raw_dict = json.loads(line.strip())
 
     if task == "blimp":
-        data_dict = decode_blimp(raw_dict, file_name)
+        data_dict = [decode_blimp(raw_dict, file_name)]
     elif task == "ewok":
         data_dict = decode_ewok(raw_dict, full_sentence_scores)
     elif task == "entity_tracking":
-        data_dict = decode_entity_tracking(raw_dict, file_name)
+        data_dict = [decode_entity_tracking(raw_dict, file_name)]
     elif task == "comps":
-        data_dict = decode_comps(raw_dict, file_name)
+        data_dict = [decode_comps(raw_dict, file_name)]
     elif task == "vqa":
-        data_dict = decode_vqa(raw_dict, images)
+        data_dict = [decode_vqa(raw_dict, images)]
     elif task == "winoground":
-        data_dict = decode_winoground(raw_dict, images)
+        data_dict = [decode_winoground(raw_dict, images)]
     else:
         raise NotImplementedError(f"The task {task} is not implemented! Please implement it or choose one of the implemented tasks.")
 
@@ -138,12 +138,12 @@ def decode_ewok(raw_dict: dict[str, Any], full_sentence_scores: bool) -> dict[st
         dict[str, str]: A dictionary with values used for
             evaluation.
     """
-    if full_sentence_scores:
-        completions = [" ".join([raw_dict["Context1"], raw_dict["Target1"]]), " ".join([raw_dict["Context1"], raw_dict["Target2"]])]
-    else:
-        completions = [" " + raw_dict["Target1"], " " + raw_dict["Target2"]]
+    pairs = []
+
+    # Target 1
+    completions = [" " + raw_dict["Target1"], " " + raw_dict["Target1"]]
     pair = {
-        "sentences": [" ".join([raw_dict["Context1"], raw_dict["Target1"]]), " ".join([raw_dict["Context1"], raw_dict["Target2"]])],
+        "sentences": [" ".join([raw_dict["Context1"], raw_dict["Target1"]]), " ".join([raw_dict["Context2"], raw_dict["Target1"]])],
         "prefixes": [raw_dict["Context1"], raw_dict["Context2"]],
         "completions": completions,
         "label": 0,
@@ -152,8 +152,23 @@ def decode_ewok(raw_dict: dict[str, Any], full_sentence_scores: bool) -> dict[st
         "context_contrast": raw_dict["ContextDiff"],
         "target_contrast": raw_dict["TargetDiff"],
     }
+    pairs.append(pair)
 
-    return pair
+    # Target 2
+    completions = [" " + raw_dict["Target2"], " " + raw_dict["Target2"]]
+    pair = {
+        "sentences": [" ".join([raw_dict["Context2"], raw_dict["Target2"]]), " ".join([raw_dict["Context1"], raw_dict["Target2"]])],
+        "prefixes": [raw_dict["Context2"], raw_dict["Context1"]],
+        "completions": completions,
+        "label": 0,
+        "UID": raw_dict["Domain"],
+        "context_type": raw_dict["ContextType"],
+        "context_contrast": raw_dict["ContextDiff"],
+        "target_contrast": raw_dict["TargetDiff"],
+    }
+    pairs.append(pair)
+    
+    return pairs
 
 def decode_entity_tracking(raw_dict: dict[str, Any], file_name: pathlib.Path) -> dict[str, str]:
     """This function takes a dictionary of a single datapoint
