@@ -1,3 +1,5 @@
 include: default_af.yaml
 task: snli_zh_mubench
 dataset_name: SNLIDataset_en_template_zh
+doc_to_text: !function pinyin_abbreviation.mubench_doc_to_text
+doc_to_choice: !function pinyin_abbreviation.mubench_doc_to_choice

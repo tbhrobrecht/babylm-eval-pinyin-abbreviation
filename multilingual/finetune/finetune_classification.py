@@ -501,18 +501,37 @@ def main():
             f"model ({tokenizer.model_max_length}). Using max_seq_length={tokenizer.model_max_length}."
         )
     max_seq_length = min(data_args.max_seq_length, tokenizer.model_max_length)
+    transliterate_zh = data_args.language == "zh"
+    if transliterate_zh:
+        from tasks.pinyin_abbreviation import transliterate_text
+
+        def maybe_transliterate(value):
+            if isinstance(value, list):
+                return [transliterate_text(item) for item in value]
+            return transliterate_text(value)
+    else:
+        def maybe_transliterate(value):
+            return value
 
     def preprocess_function(examples):
         # Tokenize the texts
         if isinstance(sentence1_key, list):
             keya, keyb = examples[sentence1_key[0]], examples[sentence1_key[1]]
-            keys1 = [template.format(ka, kb) for ka, kb in zip(keya, keyb)]
+            keys1 = [
+                maybe_transliterate(template.format(ka, kb))
+                for ka, kb in zip(keya, keyb)
+            ]
             args = (
-                (keys1, examples[sentence2_key])
+                (keys1, maybe_transliterate(examples[sentence2_key]))
             )
         else:
             args = (
-                (examples[sentence1_key],) if sentence2_key is None else (examples[sentence1_key], examples[sentence2_key])
+                (maybe_transliterate(examples[sentence1_key]),)
+                if sentence2_key is None
+                else (
+                    maybe_transliterate(examples[sentence1_key]),
+                    maybe_transliterate(examples[sentence2_key]),
+                )
             )
         result = tokenizer(*args, padding=padding, max_length=max_seq_length, truncation=True)
 

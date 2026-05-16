@@ -1,3 +1,5 @@
 include: default_af.yaml
 task: arc_easy_zh_mubench
 dataset_name: ARCEasyDataset_lighteval_zh
+doc_to_text: !function pinyin_abbreviation.mubench_doc_to_text
+doc_to_choice: !function pinyin_abbreviation.mubench_doc_to_choice

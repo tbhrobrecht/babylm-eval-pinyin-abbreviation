@@ -1,3 +1,4 @@
 include: sib200_eng_Latn.yaml
 task: sib200_zho_Hans
 dataset_name: zho_Hans
+doc_to_text: !function pinyin_abbreviation.sib200_doc_to_text
