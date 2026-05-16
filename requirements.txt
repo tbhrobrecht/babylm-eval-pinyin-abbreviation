@@ -1,4 +1,5 @@
 aiohttp
+accelerate
 datasets
 evaluate
 huggingface-hub
@@ -10,14 +11,18 @@ numpy
 pandas
 pillow
 polars
+protobuf
 pypinyin
 pyspellchecker
+safetensors
 scikit-learn
 scipy
+sentencepiece
 spacy
 statsmodels
 torch
 torchvision
 tqdm
 transformers
+tokenizers
 wandb

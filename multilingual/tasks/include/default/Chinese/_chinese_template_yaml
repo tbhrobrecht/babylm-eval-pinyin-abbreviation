@@ -2,7 +2,7 @@ dataset_path: CohereLabs/include-base-44
 dataset_name: Chinese
 test_split: test
 output_type: multiple_choice
-doc_to_text: !function pinyin_abbreviation.mmlu_doc_to_text
+doc_to_text: !function tasks.pinyin_abbreviation.mmlu_doc_to_text
 doc_to_choice:
   - A
   - B

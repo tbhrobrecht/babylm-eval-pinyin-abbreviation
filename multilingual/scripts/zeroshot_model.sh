@@ -23,7 +23,7 @@ for lang in $langs; do
         --model hf \
         --model_args pretrained=${model_name},revision=${revision},trust_remote_code=True \
         --tasks ${task_name} \
-        --device cuda \
+        --device cpu \
         --output_path ../results/${revision} \
         --batch_size auto:10 \
         --num_fewshot 0 \

@@ -1,4 +1,4 @@
 include: xcomps_de.yaml
 task: xcomps_zh
 test_split: comps_zh
-doc_to_choice: !function pinyin_abbreviation.paired_sentence_doc_to_choice
+doc_to_choice: !function tasks.pinyin_abbreviation.paired_sentence_doc_to_choice

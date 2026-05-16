@@ -1,5 +1,5 @@
 include: default_af.yaml
 task: bmlama_zh_mubench
 dataset_name: BMLAMADataset_lighteval_zh
-doc_to_text: !function pinyin_abbreviation.mubench_doc_to_text
-doc_to_choice: !function pinyin_abbreviation.mubench_doc_to_choice
+doc_to_text: !function tasks.pinyin_abbreviation.mubench_doc_to_text
+doc_to_choice: !function tasks.pinyin_abbreviation.mubench_doc_to_choice
