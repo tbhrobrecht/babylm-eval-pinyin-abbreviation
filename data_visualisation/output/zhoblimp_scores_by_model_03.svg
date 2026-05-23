@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="620" viewBox="0 0 1660 620">
+<style>text{font-family:Arial,sans-serif;fill:#1f2933}.axis{stroke:#9aa5b1;stroke-width:1}.grid{stroke:#e4e7eb;stroke-width:1}.label{font-size:12px}.title{font-size:22px;font-weight:700}.legend{font-size:13px}</style>
+<rect width="1660" height="620" fill="#ffffff"/>
+<text x="76" y="34" class="title">acc by zhoblimp subtask (3/4)</text>
+<line x1="76" y1="450.0" x2="1632" y2="450.0" class="grid"/>
+<text x="66" y="454.0" text-anchor="end" class="label">0.0</text>
+<line x1="76" y1="374.4" x2="1632" y2="374.4" class="grid"/>
+<text x="66" y="378.4" text-anchor="end" class="label">0.2</text>
+<line x1="76" y1="298.8" x2="1632" y2="298.8" class="grid"/>
+<text x="66" y="302.8" text-anchor="end" class="label">0.4</text>
+<line x1="76" y1="223.2" x2="1632" y2="223.2" class="grid"/>
+<text x="66" y="227.2" text-anchor="end" class="label">0.6</text>
+<line x1="76" y1="147.6" x2="1632" y2="147.6" class="grid"/>
+<text x="66" y="151.6" text-anchor="end" class="label">0.8</text>
+<line x1="76" y1="72.0" x2="1632" y2="72.0" class="grid"/>
+<text x="66" y="76.0" text-anchor="end" class="label">1.0</text>
+<line x1="76" y1="72" x2="76" y2="450" class="axis"/>
+<line x1="76" y1="450" x2="1632" y2="450" class="axis"/>
+<rect x="81.6" y="72.0" width="14.7" height="378.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_nandao_raising_2: 1.000</title></rect>
+<rect x="98.2" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_nandao_raising_2: 0.000</title></rect>
+<text x="98.2" y="466" transform="rotate(62 98.2 466)" class="label">zhoblimp_question_nandao_raising_2</text>
+<rect x="126.0" y="180.4" width="14.7" height="269.6" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_nandao_raising_3: 0.713</title></rect>
+<rect x="142.7" y="341.6" width="14.7" height="108.4" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_nandao_raising_3: 0.287</title></rect>
+<text x="142.7" y="466" transform="rotate(62 142.7 466)" class="label">zhoblimp_question_nandao_raising_3</text>
+<rect x="170.5" y="72.0" width="14.7" height="378.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_fci_renhe_prepP: 1.000</title></rect>
+<rect x="187.1" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_fci_renhe_prepP: 0.000</title></rect>
+<text x="187.1" y="466" transform="rotate(62 187.1 466)" class="label">zhoblimp_fci_renhe_prepP</text>
+<rect x="214.9" y="247.1" width="14.7" height="202.9" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_BA_inversion: 0.537</title></rect>
+<rect x="231.6" y="282.4" width="14.7" height="167.6" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_BA_inversion: 0.443</title></rect>
+<text x="231.6" y="466" transform="rotate(62 231.6 466)" class="label">zhoblimp_BA_inversion</text>
+<rect x="259.4" y="93.4" width="14.7" height="356.6" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_relative_operator_who: 0.943</title></rect>
+<rect x="276.1" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_relative_operator_who: 0.000</title></rect>
+<text x="276.1" y="466" transform="rotate(62 276.1 466)" class="label">zhoblimp_relative_operator_who</text>
+<rect x="303.8" y="94.7" width="14.7" height="355.3" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_fci_renhe_subj: 0.940</title></rect>
+<rect x="320.5" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_fci_renhe_subj: 0.000</title></rect>
+<text x="320.5" y="466" transform="rotate(62 320.5 466)" class="label">zhoblimp_fci_renhe_subj</text>
+<rect x="348.3" y="253.4" width="14.7" height="196.6" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_passive_intransitive: 0.520</title></rect>
+<rect x="365.0" y="305.1" width="14.7" height="144.9" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_passive_intransitive: 0.383</title></rect>
+<text x="365.0" y="466" transform="rotate(62 365.0 466)" class="label">zhoblimp_passive_intransitive</text>
+<rect x="392.8" y="261.0" width="14.7" height="189.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_agent_animacy_subj: 0.500</title></rect>
+<rect x="409.4" y="302.6" width="14.7" height="147.4" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_agent_animacy_subj: 0.390</title></rect>
+<text x="409.4" y="466" transform="rotate(62 409.4 466)" class="label">zhoblimp_agent_animacy_subj</text>
+<rect x="437.2" y="413.5" width="14.7" height="36.5" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_topicalization_OSV: 0.097</title></rect>
+<rect x="453.9" y="155.2" width="14.7" height="294.8" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_topicalization_OSV: 0.780</title></rect>
+<text x="453.9" y="466" transform="rotate(62 453.9 466)" class="label">zhoblimp_topicalization_OSV</text>
+<rect x="481.7" y="182.9" width="14.7" height="267.1" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_modal_raising_topicalization: 0.707</title></rect>
+<rect x="498.3" y="398.3" width="14.7" height="51.7" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_modal_raising_topicalization: 0.137</title></rect>
+<text x="498.3" y="466" transform="rotate(62 498.3 466)" class="label">zhoblimp_modal_raising_topicaliza...</text>
+<rect x="526.1" y="186.7" width="14.7" height="263.3" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_existential_there_subject_raising: 0.697</title></rect>
+<rect x="542.8" y="398.3" width="14.7" height="51.7" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_existential_there_subject_raising: 0.137</title></rect>
+<text x="542.8" y="466" transform="rotate(62 542.8 466)" class="label">zhoblimp_existential_there_subjec...</text>
+<rect x="570.6" y="218.2" width="14.7" height="231.8" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_nandao_scope_1: 0.613</title></rect>
+<rect x="587.3" y="379.4" width="14.7" height="70.6" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_nandao_scope_1: 0.187</title></rect>
+<text x="587.3" y="466" transform="rotate(62 587.3 466)" class="label">zhoblimp_question_nandao_scope_1</text>
+<rect x="615.0" y="363.1" width="14.7" height="86.9" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_right_yijing_b: 0.230</title></rect>
+<rect x="631.7" y="256.0" width="14.7" height="194.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_right_yijing_b: 0.513</title></rect>
+<text x="631.7" y="466" transform="rotate(62 631.7 466)" class="label">zhoblimp_right_yijing_b</text>
+<rect x="659.5" y="301.3" width="14.7" height="148.7" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_intransitive_double_obj: 0.393</title></rect>
+<rect x="676.2" y="320.2" width="14.7" height="129.8" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_intransitive_double_obj: 0.343</title></rect>
+<text x="676.2" y="466" transform="rotate(62 676.2 466)" class="label">zhoblimp_intransitive_double_obj</text>
+<rect x="704.0" y="347.9" width="14.7" height="102.1" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_A_not_A_daodi_b: 0.270</title></rect>
+<rect x="720.6" y="284.9" width="14.7" height="165.1" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_A_not_A_daodi_b: 0.437</title></rect>
+<text x="720.6" y="466" transform="rotate(62 720.6 466)" class="label">zhoblimp_question_A_not_A_daodi_b</text>
+<rect x="748.4" y="191.7" width="14.7" height="258.3" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_superlative_quantifiers_1: 0.683</title></rect>
+<rect x="765.1" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_superlative_quantifiers_1: 0.000</title></rect>
+<text x="765.1" y="466" transform="rotate(62 765.1 466)" class="label">zhoblimp_superlative_quantifiers_1</text>
+<rect x="792.9" y="194.2" width="14.7" height="255.8" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_V_not_VP_1: 0.677</title></rect>
+<rect x="809.5" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_V_not_VP_1: 0.000</title></rect>
+<text x="809.5" y="466" transform="rotate(62 809.5 466)" class="label">zhoblimp_question_V_not_VP_1</text>
+<rect x="837.3" y="375.7" width="14.7" height="74.3" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_A_not_A_daodi_a: 0.197</title></rect>
+<rect x="854.0" y="288.7" width="14.7" height="161.3" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_A_not_A_daodi_a: 0.427</title></rect>
+<text x="854.0" y="466" transform="rotate(62 854.0 466)" class="label">zhoblimp_question_A_not_A_daodi_a</text>
+<rect x="881.8" y="219.4" width="14.7" height="230.6" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_daodi_nandao_A_not_A_tran: 0.610</title></rect>
+<rect x="898.5" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_daodi_nandao_A_not_A_tran: 0.000</title></rect>
+<text x="898.5" y="466" transform="rotate(62 898.5 466)" class="label">zhoblimp_question_daodi_nandao_A_...</text>
+<rect x="926.2" y="228.2" width="14.7" height="221.8" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_daodi_nandao_2: 0.587</title></rect>
+<rect x="942.9" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_daodi_nandao_2: 0.000</title></rect>
+<text x="942.9" y="466" transform="rotate(62 942.9 466)" class="label">zhoblimp_question_daodi_nandao_2</text>
+<rect x="970.7" y="229.5" width="14.7" height="220.5" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_npi_renhe_wh_question_obj: 0.583</title></rect>
+<rect x="987.4" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_npi_renhe_wh_question_obj: 0.000</title></rect>
+<text x="987.4" y="466" transform="rotate(62 987.4 466)" class="label">zhoblimp_npi_renhe_wh_question_obj</text>
+<rect x="1015.2" y="239.6" width="14.7" height="210.4" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_daodi_nandao_A_not_A_intran: 0.557</title></rect>
+<rect x="1031.8" y="446.2" width="14.7" height="3.8" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_daodi_nandao_A_not_A_intran: 0.010</title></rect>
+<text x="1031.8" y="466" transform="rotate(62 1031.8 466)" class="label">zhoblimp_question_daodi_nandao_A_...</text>
+<rect x="1059.6" y="431.1" width="14.7" height="18.9" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_npi_renhe_neg_scope_locP: 0.050</title></rect>
+<rect x="1076.3" y="262.3" width="14.7" height="187.7" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_npi_renhe_neg_scope_locP: 0.497</title></rect>
+<text x="1076.3" y="466" transform="rotate(62 1076.3 466)" class="label">zhoblimp_npi_renhe_neg_scope_locP</text>
+<rect x="1104.1" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_npi_renhe_conditional: 0.000</title></rect>
+<rect x="1120.7" y="278.6" width="14.7" height="171.4" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_npi_renhe_conditional: 0.453</title></rect>
+<text x="1120.7" y="466" transform="rotate(62 1120.7 466)" class="label">zhoblimp_npi_renhe_conditional</text>
+<rect x="1148.5" y="390.8" width="14.7" height="59.2" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_classifier_noun_agreement_no_gap: 0.157</title></rect>
+<rect x="1165.2" y="349.2" width="14.7" height="100.8" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_classifier_noun_agreement_no_gap: 0.267</title></rect>
+<text x="1165.2" y="466" transform="rotate(62 1165.2 466)" class="label">zhoblimp_classifier_noun_agreemen...</text>
+<rect x="1193.0" y="306.4" width="14.7" height="143.6" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_preposition_insertion: 0.380</title></rect>
+<rect x="1209.7" y="442.4" width="14.7" height="7.6" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_preposition_insertion: 0.020</title></rect>
+<text x="1209.7" y="466" transform="rotate(62 1209.7 466)" class="label">zhoblimp_preposition_insertion</text>
+<rect x="1237.4" y="303.8" width="14.7" height="146.2" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_npi_renhe_neg_scope_subj: 0.387</title></rect>
+<rect x="1254.1" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_npi_renhe_neg_scope_subj: 0.000</title></rect>
+<text x="1254.1" y="466" transform="rotate(62 1254.1 466)" class="label">zhoblimp_npi_renhe_neg_scope_subj</text>
+<rect x="1281.9" y="393.3" width="14.7" height="56.7" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_question_nandao_scope_2: 0.150</title></rect>
+<rect x="1298.6" y="378.2" width="14.7" height="71.8" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_question_nandao_scope_2: 0.190</title></rect>
+<text x="1298.6" y="466" transform="rotate(62 1298.6 466)" class="label">zhoblimp_question_nandao_scope_2</text>
+<rect x="1326.4" y="424.8" width="14.7" height="25.2" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_renhe_non_factive_verb: 0.067</title></rect>
+<rect x="1343.0" y="347.9" width="14.7" height="102.1" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_renhe_non_factive_verb: 0.270</title></rect>
+<text x="1343.0" y="466" transform="rotate(62 1343.0 466)" class="label">zhoblimp_renhe_non_factive_verb</text>
+<rect x="1370.8" y="413.5" width="14.7" height="36.5" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_right_yijing_a: 0.097</title></rect>
+<rect x="1387.5" y="417.2" width="14.7" height="32.8" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_right_yijing_a: 0.087</title></rect>
+<text x="1387.5" y="466" transform="rotate(62 1387.5 466)" class="label">zhoblimp_right_yijing_a</text>
+<rect x="1415.3" y="431.1" width="14.7" height="18.9" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_BA_BEI_subj_drop: 0.050</title></rect>
+<rect x="1431.9" y="414.7" width="14.7" height="35.3" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_BA_BEI_subj_drop: 0.093</title></rect>
+<text x="1431.9" y="466" transform="rotate(62 1431.9 466)" class="label">zhoblimp_BA_BEI_subj_drop</text>
+<rect x="1459.7" y="408.4" width="14.7" height="41.6" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_renhe_no_superordinate_negation: 0.110</title></rect>
+<rect x="1476.4" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_renhe_no_superordinate_negation: 0.000</title></rect>
+<text x="1476.4" y="466" transform="rotate(62 1476.4 466)" class="label">zhoblimp_renhe_no_superordinate_n...</text>
+<rect x="1504.2" y="447.5" width="14.7" height="2.5" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_adjective_transitive_dui: 0.007</title></rect>
+<rect x="1520.9" y="413.5" width="14.7" height="36.5" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_adjective_transitive_dui: 0.097</title></rect>
+<text x="1520.9" y="466" transform="rotate(62 1520.9 466)" class="label">zhoblimp_adjective_transitive_dui</text>
+<rect x="1548.6" y="414.7" width="14.7" height="35.3" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_BEI_deletion: 0.093</title></rect>
+<rect x="1565.3" y="447.5" width="14.7" height="2.5" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_BEI_deletion: 0.007</title></rect>
+<text x="1565.3" y="466" transform="rotate(62 1565.3 466)" class="label">zhoblimp_BEI_deletion</text>
+<rect x="1593.1" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_passive_suo: 0.000</title></rect>
+<rect x="1609.8" y="436.1" width="14.7" height="13.9" fill="#c44e52"><title>10k_initials_gpu1 | zhoblimp_passive_suo: 0.037</title></rect>
+<text x="1609.8" y="466" transform="rotate(62 1609.8 466)" class="label">zhoblimp_passive_suo</text>
+<rect x="76" y="580" width="14" height="14" fill="#2f6f9f"/>
+<text x="96" y="592" class="legend">10k_gpu1</text>
+<rect x="286" y="580" width="14" height="14" fill="#c44e52"/>
+<text x="306" y="592" class="legend">10k_initials_gpu1</text>
+</svg>
