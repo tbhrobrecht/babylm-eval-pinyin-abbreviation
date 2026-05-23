@@ -1,77 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="620" viewBox="0 0 1264 620">
 <style>text{font-family:Arial,sans-serif;fill:#1f2933}.axis{stroke:#9aa5b1;stroke-width:1}.grid{stroke:#e4e7eb;stroke-width:1}.label{font-size:12px}.title{font-size:22px;font-weight:700}.legend{font-size:13px}</style>
-<rect width="980" height="620" fill="#ffffff"/>
+<rect width="1264" height="620" fill="#ffffff"/>
 <text x="76" y="34" class="title">acc by zhoblimp subtask (4/4)</text>
-<line x1="76" y1="450.0" x2="952" y2="450.0" class="grid"/>
+<line x1="76" y1="450.0" x2="1236" y2="450.0" class="grid"/>
 <text x="66" y="454.0" text-anchor="end" class="label">0.0</text>
-<line x1="76" y1="374.4" x2="952" y2="374.4" class="grid"/>
+<line x1="76" y1="374.4" x2="1236" y2="374.4" class="grid"/>
 <text x="66" y="378.4" text-anchor="end" class="label">0.2</text>
-<line x1="76" y1="298.8" x2="952" y2="298.8" class="grid"/>
+<line x1="76" y1="298.8" x2="1236" y2="298.8" class="grid"/>
 <text x="66" y="302.8" text-anchor="end" class="label">0.4</text>
-<line x1="76" y1="223.2" x2="952" y2="223.2" class="grid"/>
+<line x1="76" y1="223.2" x2="1236" y2="223.2" class="grid"/>
 <text x="66" y="227.2" text-anchor="end" class="label">0.6</text>
-<line x1="76" y1="147.6" x2="952" y2="147.6" class="grid"/>
+<line x1="76" y1="147.6" x2="1236" y2="147.6" class="grid"/>
 <text x="66" y="151.6" text-anchor="end" class="label">0.8</text>
-<line x1="76" y1="72.0" x2="952" y2="72.0" class="grid"/>
+<line x1="76" y1="72.0" x2="1236" y2="72.0" class="grid"/>
 <text x="66" y="76.0" text-anchor="end" class="label">1.0</text>
 <line x1="76" y1="72" x2="76" y2="450" class="axis"/>
-<line x1="76" y1="450" x2="952" y2="450" class="axis"/>
-<rect x="84.4" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.000</title></rect>
-<rect x="101.3" y="442.4" width="14.8" height="7.6" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.020</title></rect>
-<rect x="118.1" y="442.4" width="14.8" height="7.6" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.020</title></rect>
-<text x="109.7" y="466" transform="rotate(62 109.7 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
-<rect x="151.8" y="443.7" width="14.8" height="6.3" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_preposition_deletion: 0.017</title></rect>
-<rect x="168.7" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_preposition_deletion: 0.000</title></rect>
-<rect x="185.5" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_preposition_deletion: 0.000</title></rect>
-<text x="177.1" y="466" transform="rotate(62 177.1 466)" class="label">zhoblimp_preposition_deletion</text>
-<rect x="219.2" y="445.0" width="14.8" height="5.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_BA_deletion: 0.013</title></rect>
-<rect x="236.0" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_BA_deletion: 0.000</title></rect>
-<rect x="252.9" y="448.7" width="14.8" height="1.3" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_BA_deletion: 0.003</title></rect>
-<text x="244.5" y="466" transform="rotate(62 244.5 466)" class="label">zhoblimp_BA_deletion</text>
-<rect x="286.6" y="446.2" width="14.8" height="3.8" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_fci_renhe_dou: 0.010</title></rect>
-<rect x="303.4" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
-<rect x="320.3" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
-<text x="311.8" y="466" transform="rotate(62 311.8 466)" class="label">zhoblimp_fci_renhe_dou</text>
-<rect x="354.0" y="447.5" width="14.8" height="2.5" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.007</title></rect>
-<rect x="370.8" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.000</title></rect>
-<rect x="387.7" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.000</title></rect>
-<text x="379.2" y="466" transform="rotate(62 379.2 466)" class="label">zhoblimp_npi_renhe_A_not_A_questi...</text>
-<rect x="421.3" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<rect x="438.2" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<rect x="455.0" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<text x="446.6" y="466" transform="rotate(62 446.6 466)" class="label">zhoblimp_BA_verb_le_b</text>
-<rect x="488.7" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<rect x="505.6" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<rect x="522.4" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<text x="514.0" y="466" transform="rotate(62 514.0 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
-<rect x="556.1" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
-<rect x="573.0" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
-<rect x="589.8" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
-<text x="581.4" y="466" transform="rotate(62 581.4 466)" class="label">zhoblimp_passive_agent_deletion_s...</text>
-<rect x="623.5" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_noun_adjective_shi: 0.000</title></rect>
-<rect x="640.3" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_noun_adjective_shi: 0.000</title></rect>
-<rect x="657.2" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_noun_adjective_shi: 0.000</title></rect>
-<text x="648.8" y="466" transform="rotate(62 648.8 466)" class="label">zhoblimp_noun_adjective_shi</text>
-<rect x="690.9" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_superlative_quantifiers_2: 0.000</title></rect>
-<rect x="707.7" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_superlative_quantifiers_2: 0.000</title></rect>
-<rect x="724.6" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_superlative_quantifiers_2: 0.000</title></rect>
-<text x="716.2" y="466" transform="rotate(62 716.2 466)" class="label">zhoblimp_superlative_quantifiers_2</text>
-<rect x="758.3" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<rect x="775.1" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<rect x="792.0" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<text x="783.5" y="466" transform="rotate(62 783.5 466)" class="label">zhoblimp_relative_operator_intepr...</text>
-<rect x="825.7" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<rect x="842.5" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<rect x="859.3" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<text x="850.9" y="466" transform="rotate(62 850.9 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
-<rect x="893.0" y="450.0" width="14.8" height="0.0" fill="#2f6f9f"><title>10k_gpu1 | zhoblimp_agent_deletion: 0.000</title></rect>
-<rect x="909.9" y="450.0" width="14.8" height="0.0" fill="#c44e52"><title>10k_hanzi_gpu1 | zhoblimp_agent_deletion: 0.000</title></rect>
-<rect x="926.7" y="450.0" width="14.8" height="0.0" fill="#55a868"><title>10k_initials_gpu1 | zhoblimp_agent_deletion: 0.000</title></rect>
-<text x="918.3" y="466" transform="rotate(62 918.3 466)" class="label">zhoblimp_agent_deletion</text>
+<line x1="76" y1="450" x2="1236" y2="450" class="axis"/>
+<rect x="87.2" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_suo: 0.000</title></rect>
+<rect x="103.9" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_passive_suo: 0.000</title></rect>
+<rect x="120.6" y="436.1" width="14.7" height="13.9" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_passive_suo: 0.037</title></rect>
+<rect x="137.3" y="436.1" width="14.7" height="13.9" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_passive_suo: 0.037</title></rect>
+<text x="120.6" y="466" transform="rotate(62 120.6 466)" class="label">zhoblimp_passive_suo</text>
+<rect x="176.4" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.000</title></rect>
+<rect x="193.1" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.000</title></rect>
+<rect x="209.8" y="442.4" width="14.7" height="7.6" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.020</title></rect>
+<rect x="226.6" y="442.4" width="14.7" height="7.6" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.020</title></rect>
+<text x="209.8" y="466" transform="rotate(62 209.8 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
+<rect x="265.6" y="441.2" width="14.7" height="8.8" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_deletion: 0.023</title></rect>
+<rect x="282.3" y="445.0" width="14.7" height="5.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_BA_deletion: 0.013</title></rect>
+<rect x="299.1" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_BA_deletion: 0.000</title></rect>
+<rect x="315.8" y="448.7" width="14.7" height="1.3" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_BA_deletion: 0.003</title></rect>
+<text x="299.1" y="466" transform="rotate(62 299.1 466)" class="label">zhoblimp_BA_deletion</text>
+<rect x="354.8" y="443.7" width="14.7" height="6.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_preposition_deletion: 0.017</title></rect>
+<rect x="371.6" y="443.7" width="14.7" height="6.3" fill="#c44e52"><title>10k_gpu1 | zhoblimp_preposition_deletion: 0.017</title></rect>
+<rect x="388.3" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_preposition_deletion: 0.000</title></rect>
+<rect x="405.0" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_preposition_deletion: 0.000</title></rect>
+<text x="388.3" y="466" transform="rotate(62 388.3 466)" class="label">zhoblimp_preposition_deletion</text>
+<rect x="444.1" y="443.7" width="14.7" height="6.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_noun_adjective_shi: 0.017</title></rect>
+<rect x="460.8" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_noun_adjective_shi: 0.000</title></rect>
+<rect x="477.5" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_noun_adjective_shi: 0.000</title></rect>
+<rect x="494.3" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_noun_adjective_shi: 0.000</title></rect>
+<text x="477.5" y="466" transform="rotate(62 477.5 466)" class="label">zhoblimp_noun_adjective_shi</text>
+<rect x="533.3" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
+<rect x="550.0" y="446.2" width="14.7" height="3.8" fill="#c44e52"><title>10k_gpu1 | zhoblimp_fci_renhe_dou: 0.010</title></rect>
+<rect x="566.8" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
+<rect x="583.5" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
+<text x="566.8" y="466" transform="rotate(62 566.8 466)" class="label">zhoblimp_fci_renhe_dou</text>
+<rect x="622.5" y="448.7" width="14.7" height="1.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.003</title></rect>
+<rect x="639.3" y="447.5" width="14.7" height="2.5" fill="#c44e52"><title>10k_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.007</title></rect>
+<rect x="656.0" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.000</title></rect>
+<rect x="672.7" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.000</title></rect>
+<text x="656.0" y="466" transform="rotate(62 656.0 466)" class="label">zhoblimp_npi_renhe_A_not_A_questi...</text>
+<rect x="711.8" y="447.5" width="14.7" height="2.5" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_superlative_quantifiers_2: 0.007</title></rect>
+<rect x="728.5" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_superlative_quantifiers_2: 0.000</title></rect>
+<rect x="745.2" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_superlative_quantifiers_2: 0.000</title></rect>
+<rect x="762.0" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_superlative_quantifiers_2: 0.000</title></rect>
+<text x="745.2" y="466" transform="rotate(62 745.2 466)" class="label">zhoblimp_superlative_quantifiers_2</text>
+<rect x="801.0" y="448.7" width="14.7" height="1.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_short: 0.003</title></rect>
+<rect x="817.7" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
+<rect x="834.5" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
+<rect x="851.2" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
+<text x="834.5" y="466" transform="rotate(62 834.5 466)" class="label">zhoblimp_passive_agent_deletion_s...</text>
+<rect x="890.2" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
+<rect x="907.0" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
+<rect x="923.7" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
+<rect x="940.4" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
+<text x="923.7" y="466" transform="rotate(62 923.7 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
+<rect x="979.5" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
+<rect x="996.2" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
+<rect x="1012.9" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
+<rect x="1029.7" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
+<text x="1012.9" y="466" transform="rotate(62 1012.9 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
+<rect x="1068.7" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
+<rect x="1085.4" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
+<rect x="1102.2" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
+<rect x="1118.9" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
+<text x="1102.2" y="466" transform="rotate(62 1102.2 466)" class="label">zhoblimp_relative_operator_intepr...</text>
+<rect x="1157.9" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
+<rect x="1174.7" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
+<rect x="1191.4" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
+<rect x="1208.1" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
+<text x="1191.4" y="466" transform="rotate(62 1191.4 466)" class="label">zhoblimp_BA_verb_le_b</text>
 <rect x="76" y="580" width="14" height="14" fill="#2f6f9f"/>
-<text x="96" y="592" class="legend">10k_gpu1</text>
+<text x="96" y="592" class="legend">10k_chinese_gpu1</text>
 <rect x="286" y="580" width="14" height="14" fill="#c44e52"/>
-<text x="306" y="592" class="legend">10k_hanzi_gpu1</text>
+<text x="306" y="592" class="legend">10k_gpu1</text>
 <rect x="496" y="580" width="14" height="14" fill="#55a868"/>
-<text x="516" y="592" class="legend">10k_initials_gpu1</text>
+<text x="516" y="592" class="legend">10k_hanzi_gpu1</text>
+<rect x="706" y="580" width="14" height="14" fill="#8172b3"/>
+<text x="726" y="592" class="legend">10k_initials_gpu1</text>
 </svg>

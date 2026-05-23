@@ -1,4 +1,5 @@
 model,metric,mean_score,task_count,sample_count
+10k_chinese_gpu1,acc,0.602877,123,96717
 10k_gpu1,acc,0.574568,123,96717
 10k_hanzi_gpu1,acc,0.524458,123,96717
 10k_initials_gpu1,acc,0.511270,123,193434
