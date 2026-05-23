@@ -1,15 +1,22 @@
 """Mandarin Hanzi transliteration helpers for Chinese evaluation tasks.
 
-The target representation is one token per jieba word. Each Hanzi syllable in
-that word becomes its pinyin initial plus a single digit encoding tone and
-pinyin length. For example, "我们几点吃饭" becomes "W6M7 J6D8 C2f7".
+The default target representation is one token per jieba word. Each Hanzi
+syllable in that word becomes its pinyin initial plus a single digit encoding
+tone and pinyin length. For example, "我们几点吃饭" becomes
+"W6M7 J6D8 C2f7".
 """
 
 from __future__ import annotations
 
 import logging
+import os
 import warnings
 from typing import Any
+
+PINYIN_FORMAT_TONE_LENGTH = "tone_length"
+PINYIN_FORMAT_INITIALS = "initials"
+PINYIN_FORMAT_ENV_VAR = "PINYIN_ABBREVIATION_FORMAT"
+PINYIN_FORMATS = (PINYIN_FORMAT_TONE_LENGTH, PINYIN_FORMAT_INITIALS)
 
 warnings.filterwarnings(
     "ignore",
@@ -80,16 +87,44 @@ def _abbreviate_syllable(syllable: str) -> str:
     return f"{initial}{digit}"
 
 
+def _initial_syllable(syllable: str) -> str:
+    if not syllable:
+        return syllable
+
+    body = syllable[:-1] if syllable[-1] in "12345" else syllable
+    if not body:
+        return syllable
+
+    return body[0].lower()
+
+
+def _normalize_pinyin_format(pinyin_format: str | None) -> str:
+    normalized = (pinyin_format or os.environ.get(PINYIN_FORMAT_ENV_VAR) or PINYIN_FORMAT_TONE_LENGTH).lower()
+    if normalized not in PINYIN_FORMATS:
+        raise ValueError(
+            f"Unknown pinyin abbreviation format: {normalized}. "
+            f"Expected one of: {', '.join(PINYIN_FORMATS)}."
+        )
+    return normalized
+
+
 def _append_word_token(parts: list[str], token: str) -> None:
     if parts and parts[-1] and not parts[-1].endswith((" ", "\n", "\t")):
         parts.append(" ")
     parts.append(token)
 
 
-def transliterate_text(text: Any) -> Any:
+def transliterate_text(text: Any, pinyin_format: str | None = None) -> Any:
     """Convert Hanzi to word-level pinyin-initial tokens with encoded digits."""
     if not isinstance(text, str) or not any(_is_hanzi(char) for char in text):
         return text
+
+    pinyin_format = _normalize_pinyin_format(pinyin_format)
+    syllable_converter = (
+        _initial_syllable
+        if pinyin_format == PINYIN_FORMAT_INITIALS
+        else _abbreviate_syllable
+    )
 
     parts: list[str] = []
     hanzi_run: list[str] = []
@@ -107,7 +142,7 @@ def transliterate_text(text: Any) -> Any:
                 strict=False,
             )
             token = "".join(
-                _abbreviate_syllable(pronunciation[0] if pronunciation else "")
+                syllable_converter(pronunciation[0] if pronunciation else "")
                 for pronunciation in pronunciations
             )
             _append_word_token(parts, token)
@@ -129,15 +164,19 @@ def transliterate_text(text: Any) -> Any:
     return "".join(parts)
 
 
-def transliterate_doc(doc: dict[str, Any], fields: list[str]) -> dict[str, Any]:
+def transliterate_doc(
+    doc: dict[str, Any],
+    fields: list[str],
+    pinyin_format: str | None = None,
+) -> dict[str, Any]:
     """Return a shallow copy with selected string/list string fields converted."""
     converted = dict(doc)
     for field in fields:
         value = converted.get(field)
         if isinstance(value, list):
-            converted[field] = [transliterate_text(item) for item in value]
+            converted[field] = [transliterate_text(item, pinyin_format) for item in value]
         else:
-            converted[field] = transliterate_text(value)
+            converted[field] = transliterate_text(value, pinyin_format)
     return converted
 
 

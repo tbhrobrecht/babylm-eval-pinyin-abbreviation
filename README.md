@@ -36,6 +36,10 @@ cd multilingual
 bash scripts/zeroshot_model.sh --model_name YOUR_MODEL --langs "eng nld zho"
 bash scripts/finetune_model.sh --model_name YOUR_MODEL --langs "eng nld zho"
 
+# For Chinese models trained on lowercase pinyin initials only, add:
+bash scripts/zeroshot_model.sh --model_name YOUR_MODEL --langs "zho" --pinyin_format initials
+bash scripts/finetune_model.sh --model_name YOUR_MODEL --langs "zho" --pinyin_format initials
+
 # Collate into a single submission file
 python scripts/collate_results.py --model_name YOUR_MODEL
 ```

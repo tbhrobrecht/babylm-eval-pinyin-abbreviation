@@ -90,6 +90,16 @@ class DataTrainingArguments:
         default=None,
         metadata={"help": "The language code to choose the correct training and validation files."},
     )
+    pinyin_format: Optional[str] = field(
+        default="tone_length",
+        metadata={
+            "help": (
+                "Chinese transliteration format for --language zh. Use 'tone_length' "
+                "for the original initial+digit format or 'initials' for lowercase "
+                "pinyin initials only."
+            )
+        },
+    )
     
     dataset_name: Optional[str] = field(
         default=None, metadata={"help": "The name of the dataset to use (via the datasets library)."}
@@ -186,6 +196,8 @@ class DataTrainingArguments:
             assert (
                 validation_extension == train_extension
             ), "`validation_file` should have the same extension (csv or json) as `train_file`."
+        if self.pinyin_format not in ("tone_length", "initials"):
+            raise ValueError("Unknown pinyin_format, you should pick one in tone_length,initials")
 
 
 @dataclass
@@ -507,8 +519,8 @@ def main():
 
         def maybe_transliterate(value):
             if isinstance(value, list):
-                return [transliterate_text(item) for item in value]
-            return transliterate_text(value)
+                return [transliterate_text(item, data_args.pinyin_format) for item in value]
+            return transliterate_text(value, data_args.pinyin_format)
     else:
         def maybe_transliterate(value):
             return value

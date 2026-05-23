@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 MODEL_NAME=""
 langs="eng nld zho"
@@ -7,6 +8,8 @@ PATIENCE=3
 BSZ=64
 MAX_EPOCHS=10
 SEED=12
+PINYIN_FORMAT="tone_length"
+PYTHON_BIN="${PYTHON_BIN:-python}"
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
@@ -17,12 +20,21 @@ while [[ $# -gt 0 ]]; do
         --bsz)         BSZ="$2";         shift 2 ;;
         --max_epochs)  MAX_EPOCHS="$2";  shift 2 ;;
         --seed)        SEED="$2";        shift 2 ;;
+        --pinyin_format) PINYIN_FORMAT="$2"; shift 2 ;;
         *) echo "Unknown argument: $1"; exit 1 ;;
     esac
 done
 
 if [[ -z "$MODEL_NAME" ]]; then
     echo "Error: --model_name is required"; exit 1
+fi
+
+if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
+    if [[ -x "../.venv/Scripts/python.exe" ]]; then
+        PYTHON_BIN="../.venv/Scripts/python.exe"
+    else
+        echo "Error: Python executable not found. Set PYTHON_BIN to your Python path."; exit 1
+    fi
 fi
 
 model_basename=$(basename $MODEL_NAME)
@@ -36,9 +48,10 @@ for LANGUAGE in $langs; do
 
         mkdir -p finetune/results/$model_basename/${LANGUAGE}/$task/
 
-        python3 finetune/finetune_classification.py \
+        "$PYTHON_BIN" finetune/finetune_classification.py \
               --model_name_or_path "$MODEL_NAME" \
               --language "$LANGUAGE" \
+              --pinyin_format "$PINYIN_FORMAT" \
               --output_dir "finetune/results/${model_basename}/${LANGUAGE}/${task}" \
               --train_file "finetune/data/multilingual/${LANGUAGE}/${task}/${task}_${LANGUAGE}.train.jsonl" \
               --validation_file "finetune/data/multilingual/${LANGUAGE}/${task}/${task}_${LANGUAGE}.valid.jsonl" \
