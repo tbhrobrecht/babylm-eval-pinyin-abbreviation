@@ -15,8 +15,9 @@ from typing import Any
 
 PINYIN_FORMAT_TONE_LENGTH = "tone_length"
 PINYIN_FORMAT_INITIALS = "initials"
+PINYIN_FORMAT_HANZI = "hanzi"
 PINYIN_FORMAT_ENV_VAR = "PINYIN_ABBREVIATION_FORMAT"
-PINYIN_FORMATS = (PINYIN_FORMAT_TONE_LENGTH, PINYIN_FORMAT_INITIALS)
+PINYIN_FORMATS = (PINYIN_FORMAT_TONE_LENGTH, PINYIN_FORMAT_INITIALS, PINYIN_FORMAT_HANZI)
 
 warnings.filterwarnings(
     "ignore",
@@ -120,6 +121,9 @@ def transliterate_text(text: Any, pinyin_format: str | None = None) -> Any:
         return text
 
     pinyin_format = _normalize_pinyin_format(pinyin_format)
+    if pinyin_format == PINYIN_FORMAT_HANZI:
+        return text
+
     syllable_converter = (
         _initial_syllable
         if pinyin_format == PINYIN_FORMAT_INITIALS

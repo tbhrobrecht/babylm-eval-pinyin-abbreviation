@@ -40,6 +40,10 @@ bash scripts/finetune_model.sh --model_name YOUR_MODEL --langs "eng nld zho"
 bash scripts/zeroshot_model.sh --model_name YOUR_MODEL --langs "zho" --pinyin_format initials
 bash scripts/finetune_model.sh --model_name YOUR_MODEL --langs "zho" --pinyin_format initials
 
+# For Chinese models trained on standard Hanzi Mandarin, add:
+bash scripts/zeroshot_model.sh --model_name YOUR_MODEL --langs "zho" --pinyin_format hanzi
+bash scripts/finetune_model.sh --model_name YOUR_MODEL --langs "zho" --pinyin_format hanzi
+
 # Collate into a single submission file
 python scripts/collate_results.py --model_name YOUR_MODEL
 ```

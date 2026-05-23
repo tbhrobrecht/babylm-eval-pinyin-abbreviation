@@ -96,7 +96,7 @@ class DataTrainingArguments:
             "help": (
                 "Chinese transliteration format for --language zh. Use 'tone_length' "
                 "for the original initial+digit format or 'initials' for lowercase "
-                "pinyin initials only."
+                "pinyin initials only, or 'hanzi' to leave Chinese text unchanged."
             )
         },
     )
@@ -196,8 +196,8 @@ class DataTrainingArguments:
             assert (
                 validation_extension == train_extension
             ), "`validation_file` should have the same extension (csv or json) as `train_file`."
-        if self.pinyin_format not in ("tone_length", "initials"):
-            raise ValueError("Unknown pinyin_format, you should pick one in tone_length,initials")
+        if self.pinyin_format not in ("tone_length", "initials", "hanzi"):
+            raise ValueError("Unknown pinyin_format, you should pick one in tone_length,initials,hanzi")
 
 
 @dataclass
