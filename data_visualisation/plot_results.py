@@ -1,50 +1,37 @@
 #!/usr/bin/env python3
 """Create result tables and SVG visualisations from lm-eval JSONL files.
 
+By default, this uses the newest JSONL file for each model/task pair. That means
+dropping a new model folder into results/main/ and rerunning this script updates
+all CSVs and graphs automatically.
+
 Usage:
     python data_visualisation/plot_results.py
-    python data_visualisation/plot_results.py --metric acc_norm
+    python data_visualisation/plot_results.py --watch
+    python data_visualisation/plot_results.py --run-policy all
 """
 
 from __future__ import annotations
 
 import argparse
-from collections import defaultdict
+import time
+from datetime import datetime
 from pathlib import Path
 
-from visualisation.loader import TaskScore, add_zhoblimp_average, load_scores
-from visualisation.svg_plots import (
-    write_grouped_bar_svg,
-    write_histogram_svg,
-    write_kde_svg,
-    write_paginated_grouped_bar_svgs,
-)
-from visualisation.tables import write_model_summary_csv, write_task_scores_csv
+from visualisation.build import BuildSummary, build_visualisations
 
 
-def split_scores(scores: list[TaskScore]) -> tuple[list[TaskScore], list[TaskScore]]:
-    broad_scores = [score for score in scores if not score.task.startswith("zhoblimp_")]
-    zhoblimp_scores = [score for score in scores if score.task.startswith("zhoblimp_")]
-    return broad_scores, zhoblimp_scores
-
-
-def values_by_model(scores: list[TaskScore]) -> dict[str, list[float]]:
-    grouped: dict[str, list[float]] = defaultdict(list)
-    for score in scores:
-        grouped[score.model].append(score.mean_score)
-    return dict(grouped)
-
-
-def remove_stale_zhoblimp_pages(output_dir: Path) -> None:
-    for path in output_dir.glob("zhoblimp_scores_by_model*.svg"):
-        path.unlink()
-
-
-def main() -> None:
+def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Visualise JSONL sample results from results/main/.")
     parser.add_argument("--results-dir", type=Path, default=Path("results/main"), help="Directory containing run folders.")
     parser.add_argument("--output-dir", type=Path, default=Path("data_visualisation/output"), help="Where outputs are written.")
     parser.add_argument("--metric", default="acc", help="Numeric JSONL metric to aggregate, for example acc or acc_norm.")
+    parser.add_argument(
+        "--run-policy",
+        choices=("latest", "all"),
+        default="latest",
+        help="Use only the newest run per model/task, or aggregate all matching JSONL runs.",
+    )
     parser.add_argument(
         "--zhoblimp-page-size",
         type=int,
@@ -52,47 +39,58 @@ def main() -> None:
         help="Number of zhoblimp subtasks per SVG bar-chart page.",
     )
     parser.add_argument("--histogram-bins", type=int, default=20, help="Number of bins for zhoblimp histograms.")
-    args = parser.parse_args()
+    parser.add_argument("--watch", action="store_true", help="Refresh the graphs repeatedly as result files change.")
+    parser.add_argument("--watch-interval", type=float, default=15.0, help="Seconds between refreshes in watch mode.")
+    return parser.parse_args()
 
-    scores = load_scores(args.results_dir, args.metric)
-    if not scores:
-        raise SystemExit(f"No '{args.metric}' values found in JSONL files under {args.results_dir}")
 
-    scores_with_zhoblimp_average = add_zhoblimp_average(scores)
-    broad_scores, zhoblimp_scores = split_scores(scores_with_zhoblimp_average)
-    raw_zhoblimp_scores = [score for score in scores if score.task.startswith("zhoblimp_")]
-
-    args.output_dir.mkdir(parents=True, exist_ok=True)
-    write_task_scores_csv(scores_with_zhoblimp_average, args.output_dir / "task_scores.csv")
-    write_model_summary_csv(scores_with_zhoblimp_average, args.output_dir / "model_summary.csv")
-
-    write_grouped_bar_svg(broad_scores, args.output_dir / "task_scores_by_model.svg", f"{args.metric} by task")
-    remove_stale_zhoblimp_pages(args.output_dir)
-    zhoblimp_pages = write_paginated_grouped_bar_svgs(
-        zhoblimp_scores,
-        args.output_dir,
-        "zhoblimp_scores_by_model",
-        f"{args.metric} by zhoblimp subtask",
-        args.zhoblimp_page_size,
+def run_once(args: argparse.Namespace) -> BuildSummary:
+    summary = build_visualisations(
+        results_dir=args.results_dir,
+        output_dir=args.output_dir,
+        metric=args.metric,
+        run_policy=args.run_policy,
+        zhoblimp_page_size=args.zhoblimp_page_size,
+        histogram_bins=args.histogram_bins,
     )
+    print_summary(summary, args)
+    return summary
 
-    zhoblimp_values = values_by_model(raw_zhoblimp_scores)
-    write_histogram_svg(
-        zhoblimp_values,
-        args.output_dir / "zhoblimp_accuracy_histogram.svg",
-        f"{args.metric} distribution across zhoblimp subtasks",
-        args.histogram_bins,
-    )
-    write_kde_svg(
-        zhoblimp_values,
-        args.output_dir / "zhoblimp_accuracy_kde.svg",
-        f"{args.metric} KDE across zhoblimp subtasks",
-    )
 
-    print(f"Loaded {len(scores)} raw task scores from {args.results_dir}")
-    print(f"Added zhoblimp averages for {len(scores_with_zhoblimp_average) - len(scores)} model(s)")
-    print(f"Wrote {len(zhoblimp_pages)} zhoblimp subtask figure(s)")
-    print(f"Wrote outputs to {args.output_dir}")
+def print_summary(summary: BuildSummary, args: argparse.Namespace) -> None:
+    print(f"Loaded {summary.raw_score_count} task scores from {args.results_dir} ({args.run_policy} runs)")
+    print(f"Found {summary.model_count} model(s)")
+    print(f"Added zhoblimp averages for {summary.zhoblimp_average_count} model(s)")
+    print(f"Wrote {summary.zhoblimp_page_count} zhoblimp subtask figure(s)")
+    print(f"Wrote outputs to {summary.output_dir}")
+
+
+def latest_results_signature(results_dir: Path) -> tuple[tuple[str, int, int], ...]:
+    signature = []
+    for path in sorted(results_dir.glob("*/*.jsonl")):
+        stat = path.stat()
+        signature.append((path.as_posix(), stat.st_mtime_ns, stat.st_size))
+    return tuple(signature)
+
+
+def watch(args: argparse.Namespace) -> None:
+    print(f"Watching {args.results_dir} every {args.watch_interval:g}s. Press Ctrl+C to stop.")
+    last_signature: tuple[tuple[str, int, int], ...] | None = None
+    while True:
+        signature = latest_results_signature(args.results_dir)
+        if signature != last_signature:
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Results changed; rebuilding graphs.")
+            run_once(args)
+            last_signature = signature
+        time.sleep(args.watch_interval)
+
+
+def main() -> None:
+    args = parse_args()
+    if args.watch:
+        watch(args)
+    else:
+        run_once(args)
 
 
 if __name__ == "__main__":

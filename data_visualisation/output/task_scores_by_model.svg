@@ -16,30 +16,35 @@
 <text x="66" y="76.0" text-anchor="end" class="label">1.0</text>
 <line x1="76" y1="72" x2="76" y2="450" class="axis"/>
 <line x1="76" y1="450" x2="952" y2="450" class="axis"/>
-<rect x="119.6" y="220.0" width="20.0" height="230.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp: 0.608</title></rect>
-<rect x="141.6" y="231.0" width="20.0" height="219.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp: 0.579</title></rect>
-<rect x="163.6" y="250.8" width="20.0" height="199.2" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp: 0.527</title></rect>
-<rect x="185.6" y="255.9" width="20.0" height="194.1" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp: 0.514</title></rect>
+<rect x="108.6" y="220.0" width="20.0" height="230.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp: 0.608</title></rect>
+<rect x="130.6" y="231.0" width="20.0" height="219.0" fill="#c44e52"><title>10k_gpu1 | zhoblimp: 0.579</title></rect>
+<rect x="152.6" y="250.8" width="20.0" height="199.2" fill="#55a868"><title>10k_hanzi_gpu1 | zhoblimp: 0.527</title></rect>
+<rect x="174.6" y="255.9" width="20.0" height="194.1" fill="#8172b3"><title>10k_initials_gpu1 | zhoblimp: 0.514</title></rect>
+<rect x="196.6" y="236.9" width="20.0" height="213.1" fill="#ccb974"><title>10k_whitespace_false_gpu1 | zhoblimp: 0.564</title></rect>
 <text x="163.6" y="466" transform="rotate(62 163.6 466)" class="label">zhoblimp</text>
-<rect x="294.8" y="254.6" width="20.0" height="195.4" fill="#2f6f9f"><title>10k_chinese_gpu1 | xcomps_zh: 0.517</title></rect>
-<rect x="316.8" y="257.4" width="20.0" height="192.6" fill="#c44e52"><title>10k_gpu1 | xcomps_zh: 0.510</title></rect>
-<rect x="338.8" y="245.4" width="20.0" height="204.6" fill="#55a868"><title>10k_hanzi_gpu1 | xcomps_zh: 0.541</title></rect>
-<rect x="360.8" y="243.3" width="20.0" height="206.7" fill="#8172b3"><title>10k_initials_gpu1 | xcomps_zh: 0.547</title></rect>
+<rect x="283.8" y="254.6" width="20.0" height="195.4" fill="#2f6f9f"><title>10k_chinese_gpu1 | xcomps_zh: 0.517</title></rect>
+<rect x="305.8" y="257.4" width="20.0" height="192.6" fill="#c44e52"><title>10k_gpu1 | xcomps_zh: 0.510</title></rect>
+<rect x="327.8" y="245.4" width="20.0" height="204.6" fill="#55a868"><title>10k_hanzi_gpu1 | xcomps_zh: 0.541</title></rect>
+<rect x="349.8" y="243.3" width="20.0" height="206.7" fill="#8172b3"><title>10k_initials_gpu1 | xcomps_zh: 0.547</title></rect>
+<rect x="371.8" y="258.7" width="20.0" height="191.3" fill="#ccb974"><title>10k_whitespace_false_gpu1 | xcomps_zh: 0.506</title></rect>
 <text x="338.8" y="466" transform="rotate(62 338.8 466)" class="label">xcomps_zh</text>
-<rect x="470.0" y="264.9" width="20.0" height="185.1" fill="#2f6f9f"><title>10k_chinese_gpu1 | winogrande_zh_mubench: 0.490</title></rect>
-<rect x="492.0" y="264.9" width="20.0" height="185.1" fill="#c44e52"><title>10k_gpu1 | winogrande_zh_mubench: 0.490</title></rect>
-<rect x="514.0" y="254.6" width="20.0" height="195.4" fill="#55a868"><title>10k_hanzi_gpu1 | winogrande_zh_mubench: 0.517</title></rect>
-<rect x="536.0" y="254.9" width="20.0" height="195.1" fill="#8172b3"><title>10k_initials_gpu1 | winogrande_zh_mubench: 0.516</title></rect>
+<rect x="459.0" y="264.9" width="20.0" height="185.1" fill="#2f6f9f"><title>10k_chinese_gpu1 | winogrande_zh_mubench: 0.490</title></rect>
+<rect x="481.0" y="264.9" width="20.0" height="185.1" fill="#c44e52"><title>10k_gpu1 | winogrande_zh_mubench: 0.490</title></rect>
+<rect x="503.0" y="254.6" width="20.0" height="195.4" fill="#55a868"><title>10k_hanzi_gpu1 | winogrande_zh_mubench: 0.517</title></rect>
+<rect x="525.0" y="254.9" width="20.0" height="195.1" fill="#8172b3"><title>10k_initials_gpu1 | winogrande_zh_mubench: 0.516</title></rect>
+<rect x="547.0" y="256.2" width="20.0" height="193.8" fill="#ccb974"><title>10k_whitespace_false_gpu1 | winogrande_zh_mubench: 0.513</title></rect>
 <text x="514.0" y="466" transform="rotate(62 514.0 466)" class="label">winogrande_zh_mubench</text>
-<rect x="645.2" y="266.9" width="20.0" height="183.1" fill="#2f6f9f"><title>10k_chinese_gpu1 | xstorycloze_zh_mubench: 0.485</title></rect>
-<rect x="667.2" y="269.2" width="20.0" height="180.8" fill="#c44e52"><title>10k_gpu1 | xstorycloze_zh_mubench: 0.478</title></rect>
-<rect x="689.2" y="275.3" width="20.0" height="174.7" fill="#55a868"><title>10k_hanzi_gpu1 | xstorycloze_zh_mubench: 0.462</title></rect>
-<rect x="711.2" y="277.7" width="20.0" height="172.3" fill="#8172b3"><title>10k_initials_gpu1 | xstorycloze_zh_mubench: 0.456</title></rect>
+<rect x="634.2" y="266.9" width="20.0" height="183.1" fill="#2f6f9f"><title>10k_chinese_gpu1 | xstorycloze_zh_mubench: 0.485</title></rect>
+<rect x="656.2" y="269.2" width="20.0" height="180.8" fill="#c44e52"><title>10k_gpu1 | xstorycloze_zh_mubench: 0.478</title></rect>
+<rect x="678.2" y="275.3" width="20.0" height="174.7" fill="#55a868"><title>10k_hanzi_gpu1 | xstorycloze_zh_mubench: 0.462</title></rect>
+<rect x="700.2" y="277.7" width="20.0" height="172.3" fill="#8172b3"><title>10k_initials_gpu1 | xstorycloze_zh_mubench: 0.456</title></rect>
+<rect x="722.2" y="274.2" width="20.0" height="175.8" fill="#ccb974"><title>10k_whitespace_false_gpu1 | xstorycloze_zh_mubench: 0.465</title></rect>
 <text x="689.2" y="466" transform="rotate(62 689.2 466)" class="label">xstorycloze_zh_mubench</text>
-<rect x="820.4" y="350.1" width="20.0" height="99.9" fill="#2f6f9f"><title>10k_chinese_gpu1 | hellaswag_zh_mubench: 0.264</title></rect>
-<rect x="842.4" y="351.1" width="20.0" height="98.9" fill="#c44e52"><title>10k_gpu1 | hellaswag_zh_mubench: 0.262</title></rect>
-<rect x="864.4" y="350.1" width="20.0" height="99.9" fill="#55a868"><title>10k_hanzi_gpu1 | hellaswag_zh_mubench: 0.264</title></rect>
-<rect x="886.4" y="352.8" width="20.0" height="97.2" fill="#8172b3"><title>10k_initials_gpu1 | hellaswag_zh_mubench: 0.257</title></rect>
+<rect x="809.4" y="350.1" width="20.0" height="99.9" fill="#2f6f9f"><title>10k_chinese_gpu1 | hellaswag_zh_mubench: 0.264</title></rect>
+<rect x="831.4" y="351.1" width="20.0" height="98.9" fill="#c44e52"><title>10k_gpu1 | hellaswag_zh_mubench: 0.262</title></rect>
+<rect x="853.4" y="350.1" width="20.0" height="99.9" fill="#55a868"><title>10k_hanzi_gpu1 | hellaswag_zh_mubench: 0.264</title></rect>
+<rect x="875.4" y="352.8" width="20.0" height="97.2" fill="#8172b3"><title>10k_initials_gpu1 | hellaswag_zh_mubench: 0.257</title></rect>
+<rect x="897.4" y="350.9" width="20.0" height="99.1" fill="#ccb974"><title>10k_whitespace_false_gpu1 | hellaswag_zh_mubench: 0.262</title></rect>
 <text x="864.4" y="466" transform="rotate(62 864.4 466)" class="label">hellaswag_zh_mubench</text>
 <rect x="76" y="580" width="14" height="14" fill="#2f6f9f"/>
 <text x="96" y="592" class="legend">10k_chinese_gpu1</text>
@@ -49,4 +54,6 @@
 <text x="516" y="592" class="legend">10k_hanzi_gpu1</text>
 <rect x="706" y="580" width="14" height="14" fill="#8172b3"/>
 <text x="726" y="592" class="legend">10k_initials_gpu1</text>
+<rect x="916" y="580" width="14" height="14" fill="#ccb974"/>
+<text x="936" y="592" class="legend">10k_whitespace_false_gpu1</text>
 </svg>

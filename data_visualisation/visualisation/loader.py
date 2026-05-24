@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-import json
 import math
+import json
 import re
 from collections import defaultdict
 from dataclasses import dataclass
@@ -11,7 +11,7 @@ from pathlib import Path
 from statistics import mean
 
 
-TIMESTAMP_RE = re.compile(r"_\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}\.\d+$")
+TIMESTAMP_RE = re.compile(r"_(?P<timestamp>\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}\.\d+)$")
 
 
 @dataclass(frozen=True)
@@ -32,6 +32,13 @@ def task_name_from_sample_file(path: Path) -> str:
     return TIMESTAMP_RE.sub("", stem)
 
 
+def timestamp_from_sample_file(path: Path) -> str:
+    match = TIMESTAMP_RE.search(path.stem)
+    if match:
+        return match.group("timestamp")
+    return f"{path.stat().st_mtime:.6f}"
+
+
 def model_name_from_folder(folder: Path) -> str:
     return folder.name.split("__")[-1]
 
@@ -44,11 +51,31 @@ def standard_error(values: list[float]) -> float:
     return math.sqrt(variance) / math.sqrt(len(values))
 
 
-def load_scores(results_dir: Path, metric: str) -> list[TaskScore]:
+def discover_sample_files(results_dir: Path, run_policy: str) -> list[Path]:
+    sample_files = sorted(results_dir.glob("*/*.jsonl"))
+    if run_policy == "all":
+        return sample_files
+    if run_policy != "latest":
+        raise ValueError(f"Unknown run policy: {run_policy}")
+
+    latest_by_task: dict[tuple[str, str], Path] = {}
+    latest_timestamp: dict[tuple[str, str], str] = {}
+    for sample_file in sample_files:
+        model = model_name_from_folder(sample_file.parent)
+        task = task_name_from_sample_file(sample_file)
+        key = (model, task)
+        timestamp = timestamp_from_sample_file(sample_file)
+        if key not in latest_by_task or timestamp > latest_timestamp[key]:
+            latest_by_task[key] = sample_file
+            latest_timestamp[key] = timestamp
+    return sorted(latest_by_task.values())
+
+
+def load_scores(results_dir: Path, metric: str, run_policy: str = "latest") -> list[TaskScore]:
     grouped_values: dict[tuple[str, str], list[float]] = defaultdict(list)
     grouped_files: dict[tuple[str, str], list[Path]] = defaultdict(list)
 
-    for sample_file in sorted(results_dir.glob("*/*.jsonl")):
+    for sample_file in discover_sample_files(results_dir, run_policy):
         values: list[float] = []
         with sample_file.open(encoding="utf-8") as handle:
             for line_number, line in enumerate(handle, start=1):
