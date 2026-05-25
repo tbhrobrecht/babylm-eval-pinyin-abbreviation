@@ -1,4 +1,4 @@
-"""Load and aggregate lm-eval JSONL sample files."""
+"""Load scores from lm-eval summaries or aggregate JSONL sample files."""
 
 from __future__ import annotations
 
@@ -114,14 +114,87 @@ def load_scores(results_dir: Path, metric: str, run_policy: str = "latest") -> l
     return scores
 
 
+def load_summary_scores(summaries_dir: Path, metric: str) -> list[TaskScore]:
+    """Load the already aggregated task metrics stored by lm-eval summary JSONs."""
+    metric_key = f"{metric},none"
+    stderr_key = f"{metric}_stderr,none"
+    scores: list[TaskScore] = []
+
+    for summary_file in sorted(summaries_dir.glob("*.json")):
+        with summary_file.open(encoding="utf-8") as handle:
+            summary = json.load(handle)
+
+        results = summary.get("results", {})
+        if not isinstance(results, dict):
+            raise ValueError(f"Missing results mapping in {summary_file}")
+
+        model = summary_file.stem
+        for task, result in results.items():
+            if not isinstance(result, dict) or not isinstance(result.get(metric_key), (int, float)):
+                continue
+            sample_count = result.get("sample_len", 0)
+            stderr = result.get(stderr_key, 0.0)
+            scores.append(
+                TaskScore(
+                    model=model,
+                    task=task,
+                    metric=metric,
+                    mean_score=float(result[metric_key]),
+                    stderr=float(stderr) if isinstance(stderr, (int, float)) else 0.0,
+                    sample_count=int(sample_count) if isinstance(sample_count, (int, float)) else 0,
+                    source_files=(summary_file,),
+                )
+            )
+    if metric == "acc":
+        scores.extend(load_benchmark_scores(summaries_dir / "benchmark", metric))
+    return scores
+
+
+def load_benchmark_scores(benchmark_file: Path, metric: str) -> list[TaskScore]:
+    """Load percentage scores from the compact benchmark comparison table."""
+    if not benchmark_file.exists():
+        return []
+
+    scores: list[TaskScore] = []
+    with benchmark_file.open(encoding="utf-8") as handle:
+        for line_number, line in enumerate(handle, start=1):
+            fields = line.split()
+            if not fields:
+                continue
+            if len(fields) != 2:
+                raise ValueError(f"Invalid benchmark row in {benchmark_file}:{line_number}")
+            task, percent = fields
+            if task == "avg":
+                task = "zeroshot_zho"
+            try:
+                mean_score = float(percent) / 100
+            except ValueError as exc:
+                raise ValueError(f"Invalid benchmark score in {benchmark_file}:{line_number}") from exc
+            scores.append(
+                TaskScore(
+                    model=benchmark_file.name,
+                    task=task,
+                    metric=metric,
+                    mean_score=mean_score,
+                    stderr=0.0,
+                    sample_count=0,
+                    source_files=(benchmark_file,),
+                )
+            )
+    return scores
+
+
 def add_zhoblimp_average(scores: list[TaskScore]) -> list[TaskScore]:
     by_model: dict[str, list[TaskScore]] = defaultdict(list)
+    models_with_average = {score.model for score in scores if score.task == "zhoblimp"}
     for score in scores:
         if score.task.startswith("zhoblimp_"):
             by_model[score.model].append(score)
 
     averages: list[TaskScore] = []
     for model, model_scores in sorted(by_model.items()):
+        if model in models_with_average:
+            continue
         values = [score.mean_score for score in model_scores]
         averages.append(
             TaskScore(

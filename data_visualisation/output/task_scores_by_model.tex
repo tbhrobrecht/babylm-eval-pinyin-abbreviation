@@ -1,0 +1,22 @@
+% Requires \usepackage{booktabs} and \usepackage{graphicx}.
+\begin{table*}[t]
+\centering
+\caption{Accuracy (\%) on Chinese-language evaluation tasks. The best result for each task is shown in bold.}
+\label{tab:task-scores-by-model}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Model & HellaSwag (zh) & WinoGrande (zh) & XCOMPS (zh) & XStoryCloze (zh) & ZhoBLiMP \\
+\midrule
+BABYLM & 26.16 & 48.97 & 50.96 & 47.83 & 57.93 \\
+BABYLM-NoWS & 26.21 & 51.28 & 50.61 & 46.52 & 56.37 \\
+CHINESE & 26.44 & 48.97 & 51.69 & 48.45 & 60.84 \\
+CHINESE-NoWS & 26.45 & 49.46 & 51.45 & 46.98 & 62.47 \\
+2CHINESE-NoWS & 26.32 & 48.39 & 52.05 & 47.52 & 61.99 \\
+INITIALS & 25.72 & 51.61 & 54.68 & 45.59 & 51.35 \\
+HANZI & 26.44 & 51.69 & 54.13 & 46.21 & 52.71 \\
+BASELINE & \textbf{27.78} & \textbf{51.85} & \textbf{55.70} & \textbf{50.23} & \textbf{78.79} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

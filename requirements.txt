@@ -5,6 +5,7 @@ evaluate
 huggingface-hub
 jieba
 lm-eval
+matplotlib
 nlopt
 nltk
 numpy

@@ -6,8 +6,14 @@ from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
-from .loader import TaskScore, add_zhoblimp_average, load_scores
-from .svg_plots import write_grouped_bar_svg, write_histogram_svg, write_kde_svg, write_paginated_grouped_bar_svgs
+from .loader import TaskScore, add_zhoblimp_average, load_scores, load_summary_scores
+from .matplotlib_plots import (
+    write_grouped_bar_svg,
+    write_histogram_svg,
+    write_kde_svg,
+    write_paginated_heatmap_svgs,
+    write_stacked_heatmap_svg,
+)
 from .tables import write_model_summary_csv, write_task_scores_csv
 
 
@@ -21,32 +27,45 @@ class BuildSummary:
 
 
 def build_visualisations(
-    results_dir: Path,
+    source_dir: Path,
+    source_format: str,
     output_dir: Path,
     metric: str,
     run_policy: str,
     zhoblimp_page_size: int,
     histogram_bins: int,
 ) -> BuildSummary:
-    scores = load_scores(results_dir, metric, run_policy=run_policy)
+    if source_format == "summaries":
+        scores = load_summary_scores(source_dir, metric)
+    elif source_format == "jsonl":
+        scores = load_scores(source_dir, metric, run_policy=run_policy)
+    else:
+        raise ValueError(f"Unknown source format: {source_format}")
     if not scores:
-        raise SystemExit(f"No '{metric}' values found in JSONL files under {results_dir}")
+        raise SystemExit(f"No '{metric}' values found in {source_format} files under {source_dir}")
 
     scores_with_zhoblimp_average = add_zhoblimp_average(scores)
     broad_scores, zhoblimp_scores = split_scores(scores_with_zhoblimp_average)
+    broad_scores = [score for score in broad_scores if score.task != "zeroshot_zho"]
     raw_zhoblimp_scores = [score for score in scores if score.task.startswith("zhoblimp_")]
 
     output_dir.mkdir(parents=True, exist_ok=True)
     write_task_scores_csv(scores_with_zhoblimp_average, output_dir / "task_scores.csv")
     write_model_summary_csv(scores_with_zhoblimp_average, output_dir / "model_summary.csv")
 
-    write_grouped_bar_svg(broad_scores, output_dir / "task_scores_by_model.svg", f"{metric} by task")
+    write_grouped_bar_svg(broad_scores, output_dir / "task_scores_by_model.svg", "Chinese Evaluation Task Performance")
     remove_stale_zhoblimp_pages(output_dir)
-    zhoblimp_pages = write_paginated_grouped_bar_svgs(
+    zhoblimp_pages = write_paginated_heatmap_svgs(
         zhoblimp_scores,
         output_dir,
         "zhoblimp_scores_by_model",
-        f"{metric} by zhoblimp subtask",
+        "ZhoBLiMP Subtask Accuracy",
+        zhoblimp_page_size,
+    )
+    write_stacked_heatmap_svg(
+        zhoblimp_scores,
+        output_dir / "zhoblimp_scores_by_model_stacked.svg",
+        "ZhoBLiMP Subtask Accuracy",
         zhoblimp_page_size,
     )
 
@@ -54,13 +73,13 @@ def build_visualisations(
     write_histogram_svg(
         zhoblimp_values,
         output_dir / "zhoblimp_accuracy_histogram.svg",
-        f"{metric} distribution across zhoblimp subtasks",
+        "Distribution of ZhoBLiMP Subtask Accuracy",
         histogram_bins,
     )
     write_kde_svg(
         zhoblimp_values,
         output_dir / "zhoblimp_accuracy_kde.svg",
-        f"{metric} KDE across zhoblimp subtasks",
+        "Smoothed Distribution of ZhoBLiMP Subtask Accuracy",
     )
 
     return BuildSummary(
@@ -87,5 +106,7 @@ def values_by_model(scores: list[TaskScore]) -> dict[str, list[float]]:
 
 def remove_stale_zhoblimp_pages(output_dir: Path) -> None:
     for path in output_dir.glob("zhoblimp_scores_by_model*.svg"):
+        path.unlink()
+    for path in output_dir.glob("zhoblimp_scores_by_model*.png"):
         path.unlink()
 

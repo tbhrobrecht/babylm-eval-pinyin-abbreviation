@@ -1,0 +1,22 @@
+% Requires \usepackage{booktabs}, \usepackage{graphicx}, and \usepackage[table]{xcolor}.
+\begin{table*}[t]
+\centering
+\caption{Accuracy (\%) on Chinese-language evaluation tasks. Darker cells indicate a higher rank within each task column; the best result is bold.}
+\label{tab:task-scores-by-model-heatmap}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Model & HellaSwag (zh) & WinoGrande (zh) & XCOMPS (zh) & XStoryCloze (zh) & ZhoBLiMP \\
+\midrule
+BABYLM & \cellcolor{blue!18}26.16 & \cellcolor{blue!18}48.97 & \cellcolor{blue!16}50.96 & \cellcolor{blue!49}47.83 & \cellcolor{blue!32}57.93 \\
+BABYLM-NoWS & \cellcolor{blue!27}26.21 & \cellcolor{blue!36}51.28 & \cellcolor{blue!8}50.61 & \cellcolor{blue!24}46.52 & \cellcolor{blue!24}56.37 \\
+CHINESE & \cellcolor{blue!46}26.44 & \cellcolor{blue!18}48.97 & \cellcolor{blue!32}51.69 & \cellcolor{blue!57}48.45 & \cellcolor{blue!41}60.84 \\
+CHINESE-NoWS & \cellcolor{blue!56}26.45 & \cellcolor{blue!27}49.46 & \cellcolor{blue!24}51.45 & \cellcolor{blue!32}46.98 & \cellcolor{blue!57}62.47 \\
+2CHINESE-NoWS & \cellcolor{blue!36}26.32 & \cellcolor{blue!8}48.39 & \cellcolor{blue!41}52.05 & \cellcolor{blue!41}47.52 & \cellcolor{blue!49}61.99 \\
+INITIALS & \cellcolor{blue!8}25.72 & \cellcolor{blue!46}51.61 & \cellcolor{blue!57}54.68 & \cellcolor{blue!8}45.59 & \cellcolor{blue!8}51.35 \\
+HANZI & \cellcolor{blue!46}26.44 & \cellcolor{blue!56}51.69 & \cellcolor{blue!49}54.13 & \cellcolor{blue!16}46.21 & \cellcolor{blue!16}52.71 \\
+BASELINE & \cellcolor{blue!65}\textcolor{white}{\textbf{27.78}} & \cellcolor{blue!65}\textcolor{white}{\textbf{51.85}} & \cellcolor{blue!65}\textcolor{white}{\textbf{55.70}} & \cellcolor{blue!65}\textcolor{white}{\textbf{50.23}} & \cellcolor{blue!65}\textcolor{white}{\textbf{78.79}} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

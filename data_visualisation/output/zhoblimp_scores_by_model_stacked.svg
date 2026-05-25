@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="839.448512pt" height="1131.59952pt" viewBox="0 0 839.448512 1131.59952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>ZhoBLiMP Subtask Accuracy</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>ZhoBLiMP Subtask Accuracy</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1131.59952 
+L 839.448512 1131.59952 
+L 839.448512 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 103.05 191.855709 
+L 755.899531 191.855709 
+L 755.899531 26.948917 
+L 103.05 26.948917 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p2aa14d38b9)">
+    <image xlink:href="data:image/png;base64,
+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" id="image55b653602d" transform="scale(1 -1) translate(0 -165.6)" x="103.05" y="-26.255709" width="653.04" height="165.6"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="117.531494" y="198.576955" transform="rotate(-58 117.531494 198.576955)">BA meiba</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="136.184338" y="198.576955" transform="rotate(-58 136.184338 198.576955)">ellipsis double object</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="154.837182" y="198.576955" transform="rotate(-58 154.837182 198.576955)">principle A c command</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="173.490025" y="198.576955" transform="rotate(-58 173.490025 198.576955)">principle A domain</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="192.142869" y="198.576955" transform="rotate(-58 192.142869 198.576955)">question A not A indirect</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="210.795713" y="198.576955" transform="rotate(-58 210.795713 198.576955)">BA duplicate argument</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="229.448557" y="198.576955" transform="rotate(-58 229.448557 198.576955)">fci renhe suoyou</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="248.1014" y="198.576955" transform="rotate(-58 248.1014 198.576955)">BA suo adverbial b</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="266.754244" y="198.576955" transform="rotate(-58 266.754244 198.576955)">question A not A</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="285.407088" y="198.576955" transform="rotate(-58 285.407088 198.576955)">BA verb le a</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="304.059932" y="198.576955" transform="rotate(-58 304.059932 198.576955)">classifier noun subj</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="322.712775" y="198.576955" transform="rotate(-58 322.712775 198.576955)">BA suo adverbial a</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="341.365619" y="198.576955" transform="rotate(-58 341.365619 198.576955)">fci renhe ruguo</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="360.018463" y="198.576955" transform="rotate(-58 360.018463 198.576955)">nominal definite men</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="378.671307" y="198.576955" transform="rotate(-58 378.671307 198.576955)">plural cardinal men a</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="397.32415" y="198.576955" transform="rotate(-58 397.32415 198.576955)">relativization...</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+     <g id="text_17">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="415.976994" y="198.576955" transform="rotate(-58 415.976994 198.576955)">plural cardinal men b</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+     <g id="text_18">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="434.533372" y="198.516677" transform="rotate(-58 434.533372 198.516677)">you yige</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19"/>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="453.282682" y="198.576955" transform="rotate(-58 453.282682 198.576955)">control modal vs...</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20"/>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="471.935525" y="198.576955" transform="rotate(-58 471.935525 198.576955)">PN numP a</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21"/>
+     <g id="text_21">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="490.491904" y="198.516677" transform="rotate(-58 490.491904 198.516677)">BA no progressive</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22"/>
+     <g id="text_22">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="509.241213" y="198.576955" transform="rotate(-58 509.241213 198.576955)">principle A domain number</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23"/>
+     <g id="text_23">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="527.894057" y="198.576955" transform="rotate(-58 527.894057 198.576955)">BA no stative verb</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24"/>
+     <g id="text_24">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="546.5469" y="198.576955" transform="rotate(-58 546.5469 198.576955)">relativization...</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25"/>
+     <g id="text_25">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="565.199744" y="198.576955" transform="rotate(-58 565.199744 198.576955)">noun phrase...</text>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26"/>
+     <g id="text_26">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="583.852588" y="198.576955" transform="rotate(-58 583.852588 198.576955)">question daodi negation</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27"/>
+     <g id="text_27">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="602.505432" y="198.576955" transform="rotate(-58 602.505432 198.576955)">PN numP b</text>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28"/>
+     <g id="text_28">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="621.158275" y="198.576955" transform="rotate(-58 621.158275 198.576955)">singular PN but plural...</text>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_29"/>
+     <g id="text_29">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="639.811119" y="198.576955" transform="rotate(-58 639.811119 198.576955)">classifier noun agreement</text>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_30"/>
+     <g id="text_30">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="658.463963" y="198.576955" transform="rotate(-58 658.463963 198.576955)">question nandao negation</text>
+     </g>
+    </g>
+    <g id="xtick_31">
+     <g id="line2d_31"/>
+     <g id="text_31">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="677.116807" y="198.576955" transform="rotate(-58 677.116807 198.576955)">question nandao...</text>
+     </g>
+    </g>
+    <g id="xtick_32">
+     <g id="line2d_32"/>
+     <g id="text_32">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="695.76965" y="198.576955" transform="rotate(-58 695.76965 198.576955)">question daodi nandao 1</text>
+     </g>
+    </g>
+    <g id="xtick_33">
+     <g id="line2d_33"/>
+     <g id="text_33">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="714.422494" y="198.576955" transform="rotate(-58 714.422494 198.576955)">relative operator who</text>
+     </g>
+    </g>
+    <g id="xtick_34">
+     <g id="line2d_34"/>
+     <g id="text_34">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="733.075338" y="198.576955" transform="rotate(-58 733.075338 198.576955)">left dou</text>
+     </g>
+    </g>
+    <g id="xtick_35">
+     <g id="line2d_35"/>
+     <g id="text_35">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="751.728182" y="198.576955" transform="rotate(-58 751.728182 198.576955)">question V not VP 2</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_36"/>
+     <g id="text_36">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="42.527193" transform="rotate(-0 99.55 42.527193)">BABYLM</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_37"/>
+     <g id="text_37">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="66.085306" transform="rotate(-0 99.55 66.085306)">BABYLM-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_38"/>
+     <g id="text_38">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="89.643419" transform="rotate(-0 99.55 89.643419)">CHINESE</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_39"/>
+     <g id="text_39">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="113.201532" transform="rotate(-0 99.55 113.201532)">CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_40"/>
+     <g id="text_40">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="136.759645" transform="rotate(-0 99.55 136.759645)">2CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_41"/>
+     <g id="text_41">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="160.317758" transform="rotate(-0 99.55 160.317758)">INITIALS</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_42"/>
+     <g id="text_42">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="183.875871" transform="rotate(-0 99.55 183.875871)">HANZI</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 103.05 464.576603 
+L 755.899531 464.576603 
+L 755.899531 299.669811 
+L 103.05 299.669811 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p7bfbd62620)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagef20745cc7e" transform="scale(1 -1) translate(0 -165.6)" x="103.05" y="-298.976603" width="653.04" height="165.6"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_36">
+     <g id="line2d_43"/>
+     <g id="text_43">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="117.531494" y="471.297849" transform="rotate(-58 117.531494 471.297849)">topicalization SOV</text>
+     </g>
+    </g>
+    <g id="xtick_37">
+     <g id="line2d_44"/>
+     <g id="text_44">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="136.184338" y="471.297849" transform="rotate(-58 136.184338 471.297849)">existential there...</text>
+     </g>
+    </g>
+    <g id="xtick_38">
+     <g id="line2d_45"/>
+     <g id="text_45">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="154.837182" y="471.297849" transform="rotate(-58 154.837182 471.297849)">fci renhe prepP</text>
+     </g>
+    </g>
+    <g id="xtick_39">
+     <g id="line2d_46"/>
+     <g id="text_46">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="173.490025" y="471.297849" transform="rotate(-58 173.490025 471.297849)">topicalization SOV mei</text>
+     </g>
+    </g>
+    <g id="xtick_40">
+     <g id="line2d_47"/>
+     <g id="text_47">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="192.142869" y="471.297849" transform="rotate(-58 192.142869 471.297849)">you quantifier adj</text>
+     </g>
+    </g>
+    <g id="xtick_41">
+     <g id="line2d_48"/>
+     <g id="text_48">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="210.699248" y="471.237571" transform="rotate(-58 210.699248 471.237571)">ya insertion</text>
+     </g>
+    </g>
+    <g id="xtick_42">
+     <g id="line2d_49"/>
+     <g id="text_49">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="229.448557" y="471.297849" transform="rotate(-58 229.448557 471.297849)">BEI construction b</text>
+     </g>
+    </g>
+    <g id="xtick_43">
+     <g id="line2d_50"/>
+     <g id="text_50">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="248.1014" y="471.297849" transform="rotate(-58 248.1014 471.297849)">passive body part</text>
+     </g>
+    </g>
+    <g id="xtick_44">
+     <g id="line2d_51"/>
+     <g id="text_51">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="266.754244" y="471.297849" transform="rotate(-58 266.754244 471.297849)">passive no adj</text>
+     </g>
+    </g>
+    <g id="xtick_45">
+     <g id="line2d_52"/>
+     <g id="text_52">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="285.407088" y="471.297849" transform="rotate(-58 285.407088 471.297849)">question nandao raising 3</text>
+     </g>
+    </g>
+    <g id="xtick_46">
+     <g id="line2d_53"/>
+     <g id="text_53">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="304.059932" y="471.297849" transform="rotate(-58 304.059932 471.297849)">left adverbial d</text>
+     </g>
+    </g>
+    <g id="xtick_47">
+     <g id="line2d_54"/>
+     <g id="text_54">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="322.712775" y="471.297849" transform="rotate(-58 322.712775 471.297849)">question nandao raising 2</text>
+     </g>
+    </g>
+    <g id="xtick_48">
+     <g id="line2d_55"/>
+     <g id="text_55">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="341.365619" y="471.297849" transform="rotate(-58 341.365619 471.297849)">npi renhe neg scope subj</text>
+     </g>
+    </g>
+    <g id="xtick_49">
+     <g id="line2d_56"/>
+     <g id="text_56">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="360.018463" y="471.297849" transform="rotate(-58 360.018463 471.297849)">npi renhe wh question obj</text>
+     </g>
+    </g>
+    <g id="xtick_50">
+     <g id="line2d_57"/>
+     <g id="text_57">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="378.671307" y="471.297849" transform="rotate(-58 378.671307 471.297849)">verb phrase left...</text>
+     </g>
+    </g>
+    <g id="xtick_51">
+     <g id="line2d_58"/>
+     <g id="text_58">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="397.32415" y="471.297849" transform="rotate(-58 397.32415 471.297849)">ellipsis adj</text>
+     </g>
+    </g>
+    <g id="xtick_52">
+     <g id="line2d_59"/>
+     <g id="text_59">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="415.976994" y="471.297849" transform="rotate(-58 415.976994 471.297849)">question nandao...</text>
+     </g>
+    </g>
+    <g id="xtick_53">
+     <g id="line2d_60"/>
+     <g id="text_60">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="434.629838" y="471.297849" transform="rotate(-58 434.629838 471.297849)">left adverbial b</text>
+     </g>
+    </g>
+    <g id="xtick_54">
+     <g id="line2d_61"/>
+     <g id="text_61">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="453.282682" y="471.297849" transform="rotate(-58 453.282682 471.297849)">nominal modal insertion</text>
+     </g>
+    </g>
+    <g id="xtick_55">
+     <g id="line2d_62"/>
+     <g id="text_62">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="471.935525" y="471.297849" transform="rotate(-58 471.935525 471.297849)">npi renhe wh question...</text>
+     </g>
+    </g>
+    <g id="xtick_56">
+     <g id="line2d_63"/>
+     <g id="text_63">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="490.491904" y="471.237571" transform="rotate(-58 490.491904 471.237571)">agent animacy passive</text>
+     </g>
+    </g>
+    <g id="xtick_57">
+     <g id="line2d_64"/>
+     <g id="text_64">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="509.241213" y="471.297849" transform="rotate(-58 509.241213 471.297849)">question particle...</text>
+     </g>
+    </g>
+    <g id="xtick_58">
+     <g id="line2d_65"/>
+     <g id="text_65">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="527.894057" y="471.297849" transform="rotate(-58 527.894057 471.297849)">question particle...</text>
+     </g>
+    </g>
+    <g id="xtick_59">
+     <g id="line2d_66"/>
+     <g id="text_66">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="546.450435" y="471.237571" transform="rotate(-58 546.450435 471.237571)">agent causative</text>
+     </g>
+    </g>
+    <g id="xtick_60">
+     <g id="line2d_67"/>
+     <g id="text_67">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="565.199744" y="471.297849" transform="rotate(-58 565.199744 471.297849)">modal raising hui</text>
+     </g>
+    </g>
+    <g id="xtick_61">
+     <g id="line2d_68"/>
+     <g id="text_68">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="583.852588" y="471.297849" transform="rotate(-58 583.852588 471.297849)">ellipsis n bar class</text>
+     </g>
+    </g>
+    <g id="xtick_62">
+     <g id="line2d_69"/>
+     <g id="text_69">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="602.505432" y="471.297849" transform="rotate(-58 602.505432 471.297849)">left adverbial e</text>
+     </g>
+    </g>
+    <g id="xtick_63">
+     <g id="line2d_70"/>
+     <g id="text_70">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="621.158275" y="471.297849" transform="rotate(-58 621.158275 471.297849)">modal raising...</text>
+     </g>
+    </g>
+    <g id="xtick_64">
+     <g id="line2d_71"/>
+     <g id="text_71">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="639.811119" y="471.297849" transform="rotate(-58 639.811119 471.297849)">intransitive no obj</text>
+     </g>
+    </g>
+    <g id="xtick_65">
+     <g id="line2d_72"/>
+     <g id="text_72">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="658.463963" y="471.297849" transform="rotate(-58 658.463963 471.297849)">BEI construction a</text>
+     </g>
+    </g>
+    <g id="xtick_66">
+     <g id="line2d_73"/>
+     <g id="text_73">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="677.116807" y="471.297849" transform="rotate(-58 677.116807 471.297849)">question particle nandao</text>
+     </g>
+    </g>
+    <g id="xtick_67">
+     <g id="line2d_74"/>
+     <g id="text_74">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="695.76965" y="471.297849" transform="rotate(-58 695.76965 471.297849)">intransitive double obj</text>
+     </g>
+    </g>
+    <g id="xtick_68">
+     <g id="line2d_75"/>
+     <g id="text_75">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="714.422494" y="471.297849" transform="rotate(-58 714.422494 471.297849)">fci renhe subj</text>
+     </g>
+    </g>
+    <g id="xtick_69">
+     <g id="line2d_76"/>
+     <g id="text_76">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="733.075338" y="471.297849" transform="rotate(-58 733.075338 471.297849)">npi renhe conditional</text>
+     </g>
+    </g>
+    <g id="xtick_70">
+     <g id="line2d_77"/>
+     <g id="text_77">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="751.728182" y="471.297849" transform="rotate(-58 751.728182 471.297849)">agent animacy subj</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_78"/>
+     <g id="text_78">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="315.248087" transform="rotate(-0 99.55 315.248087)">BABYLM</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_79"/>
+     <g id="text_79">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="338.8062" transform="rotate(-0 99.55 338.8062)">BABYLM-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_80"/>
+     <g id="text_80">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="362.364313" transform="rotate(-0 99.55 362.364313)">CHINESE</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_81"/>
+     <g id="text_81">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="385.922426" transform="rotate(-0 99.55 385.922426)">CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_82"/>
+     <g id="text_82">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="409.480539" transform="rotate(-0 99.55 409.480539)">2CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_83"/>
+     <g id="text_83">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="433.038652" transform="rotate(-0 99.55 433.038652)">INITIALS</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_84"/>
+     <g id="text_84">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="456.596765" transform="rotate(-0 99.55 456.596765)">HANZI</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_4">
+    <path d="M 103.05 732.934144 
+L 755.899531 732.934144 
+L 755.899531 568.027353 
+L 103.05 568.027353 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p51b622e9ee)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAA4sAAADmCAYAAAB8kRB6AAAKPklEQVR4nO3Z+29fdR3H8dO1a9d1axnbugstHewCc9w2x8VKBgLhFmeCUTTRKImJisQEFUkkIhp/gET9SRKNioAol6ASssjFoFw0hGsC24LZkDmC60TGLh2jdFtb46++fjAx+b4Tm8fjH3ilp9/v+Zzn97R97f6Xp5oC+w8dqZhpNqzpL9nZvHNfyc7wSQtbvnHRqkVNhavvfKFkp69nZsnOgt6ukp01g30lO4t7Z5XsfOf+rSU7l75/ScnOX94YLdl568B4yc7Y4aMlO+0z2lq+0dPV0VS45ZOnl+wMzesp2Xlw666Snf3vHi7ZufaaHzTTyR8e+G7JzrqBec10sv7GR0t2XntkU8s39j1/azOd3Pnc30p2Pr1+2bQ53yrNKF0DAADg/4JYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAADEIgAAAP+dN4sAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEDoaGtrayp0dtR06ZVnDJbs7Nr7bsnO5auXtHzj6Z17mgqTU1MlO7d//7aSnT3P/rBk5+ybfl+y89ojm0p2Pnr1Z0p2qu5t9//kvpKdPX/6XsnOtzdtLdnZuPa4lm889PJIU+GVN0dLdoY/e2vJTue8+SU7l150RskO/5ulG28uuXQjm75RsrPp6xtKdtquP69kZzpZ1NtdsjNR9Bza3tQ8f4yMjpXseLMIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAACEts/d8cJUU+CvIwcrZppXt71esrPxolNLdh576c2Wb1y8dnFT4dB7R0t2xo9Mluy8fXC8ZOfkgd6SnYdf3F2yc+LinpKdgQWzS3beHj1csnPKUF/JzlTJidA0m3fub/nGmauObSrc+2TNufOxDx5fsrNr77slO6sHaz7T+w7WfEe7u9pLdt4ZqzlLh/pr7qHvW1LzOfjmPZtLdn72+bNavnHel3/RVJiamCjZufvmT5Ts/PrZN0p2xsZrrtv2XTVt5c0iAAAAQSwCAAAQxCIAAABBLAIAABDEIgAAAEEsAgAAEMQiAAAAQSwCAAAQxCIAAABBLAIAABDEIgAAAEEsAgAAEMQiAAAAQSwCAAAQxCIAAABBLAIAABDEIgAAAEEsAgAAEMQiAAAAQSwCAAAQxCIAAABBLAIAABDEIgAAAEEsAgAAEMQiAAAAQSwCAAAQxCIAAABBLAIAABDEIgAAAEEsAgAAEMQiAAAAQSwCAAAQOubN6WwqDCyYXbIzsre/ZOe4+TV/T39fV8s37r3r4abCJVdc2Ewn7TPaSnbeee9oyc6pQ30lO0cmpkp2xsYnSnbOXbOwZGd4+YKSnd+9NDJtrlvRV7SZP7f19+lKqwdr7gXb/j5asnPdZSeX7PTOmlmy860HtkyrM+HK6+8u2VlxxpqSnQPvHWn5xtREzfnWc/yJJTsz2mpu1sMn15zXX7npnpKdoXVrS3a8WQQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACC0DX7hvqmmwMYNKytmmnvvfqxkp2dgWcnOxPhYyzc6unuaCheeNVSys275sSU7t9z5TMnOiuVLS3Z++aUPlOzc+NstJTtvj46X7HS01/zm9qHT+kt2Xnh1b8nO/kNHWr7R3dneVOiaWfMZOGmgt2Tn3JULS3b2HKr5jp51fM2ZcGRismTnV8+9XrIzMVnyeNisW1bz/zl/ec3nevtbB1u+sWrh3KbCqwV/y78t7u0u2dn2z9GSnbOH5pfsTE7VfEe9WQQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAELbaTc8OtUUWLZoTsVMM7urvWRnYV9Xyc6DT73W8o3h0weaCnO6O0p2zlw5v2Tnjsd2lOxcMTxYsrN15/6SnRVL55bsTEyW3Nqaq4ZPKNlZfcF1JTs//un1JTvbdx1s+cbaE+Y1Fe56YmfJzlc/fFLJzlPb3irZeej5kZKdx2+4oGTn8MRkyc6W3QdKdhb0dJbs/HnHnpKdVf01Z88pi/tavjGzva2p0DGj5p3Sz5+peZ46b0V/yc7M9prrtrRvVsmON4sAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEAQiwAAAASxCAAAQBCLAAAABLEIAABAEIsAAAAEsQgAAEDoWL5kblNhxz/eKdnpmz2zZOfpzSMlO4v6j2n5xuNPbm4qXH7x2pKdgWO6S3bmzeks2Xli85slO+euWViys37ZsSU7t/1xR8nOlt0HSnYWb7ikZKd3Vs099ONnDrZ84+D40abCj65aX7Lzm5feKNn51NlDJTtf3LC8mU4622t+f7/29hdLdj5yzkDJzm0Pby/Zef7my0p29o0dbvnG0t6a55wq5yybX7LzyCu7S3au2bCyZGdyaqpkx5tFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAAAgiEUAAACCWAQAACCIRQAAAIJYBAAAIIhFAAAAglgEAACg+U//Ag3vQD3EOz0TAAAAAElFTkSuQmCC" id="imagee568e43ed7" transform="scale(1 -1) translate(0 -165.6)" x="103.05" y="-567.334144" width="653.04" height="165.6"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_71">
+     <g id="line2d_85"/>
+     <g id="text_85">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="117.531494" y="739.655391" transform="rotate(-58 117.531494 739.655391)">BA inversion</text>
+     </g>
+    </g>
+    <g id="xtick_72">
+     <g id="line2d_86"/>
+     <g id="text_86">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="136.184338" y="739.655391" transform="rotate(-58 136.184338 739.655391)">left adverbial negation</text>
+     </g>
+    </g>
+    <g id="xtick_73">
+     <g id="line2d_87"/>
+     <g id="text_87">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="154.837182" y="739.655391" transform="rotate(-58 154.837182 739.655391)">question daodi nandao 2</text>
+     </g>
+    </g>
+    <g id="xtick_74">
+     <g id="line2d_88"/>
+     <g id="text_88">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="173.39356" y="739.595112" transform="rotate(-58 173.39356 739.595112)">BA negation</text>
+     </g>
+    </g>
+    <g id="xtick_75">
+     <g id="line2d_89"/>
+     <g id="text_89">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="192.142869" y="739.655391" transform="rotate(-58 192.142869 739.655391)">question daodi nandao...</text>
+     </g>
+    </g>
+    <g id="xtick_76">
+     <g id="line2d_90"/>
+     <g id="text_90">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="210.795713" y="739.655391" transform="rotate(-58 210.795713 739.655391)">agent animacy adv</text>
+     </g>
+    </g>
+    <g id="xtick_77">
+     <g id="line2d_91"/>
+     <g id="text_91">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="229.448557" y="739.655391" transform="rotate(-58 229.448557 739.655391)">anaphor gender agreement</text>
+     </g>
+    </g>
+    <g id="xtick_78">
+     <g id="line2d_92"/>
+     <g id="text_92">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="248.1014" y="739.655391" transform="rotate(-58 248.1014 739.655391)">topicalization OSV mei</text>
+     </g>
+    </g>
+    <g id="xtick_79">
+     <g id="line2d_93"/>
+     <g id="text_93">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="266.754244" y="739.655391" transform="rotate(-58 266.754244 739.655391)">question daodi nandao...</text>
+     </g>
+    </g>
+    <g id="xtick_80">
+     <g id="line2d_94"/>
+     <g id="text_94">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="285.407088" y="739.655391" transform="rotate(-58 285.407088 739.655391)">verb phrase left negation</text>
+     </g>
+    </g>
+    <g id="xtick_81">
+     <g id="line2d_95"/>
+     <g id="text_95">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="304.059932" y="739.655391" transform="rotate(-58 304.059932 739.655391)">BEI preposition</text>
+     </g>
+    </g>
+    <g id="xtick_82">
+     <g id="line2d_96"/>
+     <g id="text_96">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="322.712775" y="739.655391" transform="rotate(-58 322.712775 739.655391)">right yijing b</text>
+     </g>
+    </g>
+    <g id="xtick_83">
+     <g id="line2d_97"/>
+     <g id="text_97">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="341.365619" y="739.655391" transform="rotate(-58 341.365619 739.655391)">passive intransitive</text>
+     </g>
+    </g>
+    <g id="xtick_84">
+     <g id="line2d_98"/>
+     <g id="text_98">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="360.018463" y="739.655391" transform="rotate(-58 360.018463 739.655391)">causative shi ba</text>
+     </g>
+    </g>
+    <g id="xtick_85">
+     <g id="line2d_99"/>
+     <g id="text_99">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="378.671307" y="739.655391" transform="rotate(-58 378.671307 739.655391)">question V not VP 1</text>
+     </g>
+    </g>
+    <g id="xtick_86">
+     <g id="line2d_100"/>
+     <g id="text_100">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="397.32415" y="739.655391" transform="rotate(-58 397.32415 739.655391)">question A not A daodi b</text>
+     </g>
+    </g>
+    <g id="xtick_87">
+     <g id="line2d_101"/>
+     <g id="text_101">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="415.976994" y="739.655391" transform="rotate(-58 415.976994 739.655391)">question nandao scope 2</text>
+     </g>
+    </g>
+    <g id="xtick_88">
+     <g id="line2d_102"/>
+     <g id="text_102">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="434.629838" y="739.655391" transform="rotate(-58 434.629838 739.655391)">question A not A daodi a</text>
+     </g>
+    </g>
+    <g id="xtick_89">
+     <g id="line2d_103"/>
+     <g id="text_103">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="453.282682" y="739.655391" transform="rotate(-58 453.282682 739.655391)">renhe non factive verb</text>
+     </g>
+    </g>
+    <g id="xtick_90">
+     <g id="line2d_104"/>
+     <g id="text_104">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="471.935525" y="739.655391" transform="rotate(-58 471.935525 739.655391)">verb negation particle</text>
+     </g>
+    </g>
+    <g id="xtick_91">
+     <g id="line2d_105"/>
+     <g id="text_105">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="490.588369" y="739.655391" transform="rotate(-58 490.588369 739.655391)">topicalization OSV</text>
+     </g>
+    </g>
+    <g id="xtick_92">
+     <g id="line2d_106"/>
+     <g id="text_106">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="509.241213" y="739.655391" transform="rotate(-58 509.241213 739.655391)">npi renhe neg scope locP</text>
+     </g>
+    </g>
+    <g id="xtick_93">
+     <g id="line2d_107"/>
+     <g id="text_107">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="527.894057" y="739.655391" transform="rotate(-58 527.894057 739.655391)">principle A c command...</text>
+     </g>
+    </g>
+    <g id="xtick_94">
+     <g id="line2d_108"/>
+     <g id="text_108">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="546.5469" y="739.655391" transform="rotate(-58 546.5469 739.655391)">anaphor number agreement</text>
+     </g>
+    </g>
+    <g id="xtick_95">
+     <g id="line2d_109"/>
+     <g id="text_109">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="565.199744" y="739.655391" transform="rotate(-58 565.199744 739.655391)">question nandao scope 1</text>
+     </g>
+    </g>
+    <g id="xtick_96">
+     <g id="line2d_110"/>
+     <g id="text_110">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="583.852588" y="739.655391" transform="rotate(-58 583.852588 739.655391)">renhe no episodic...</text>
+     </g>
+    </g>
+    <g id="xtick_97">
+     <g id="line2d_111"/>
+     <g id="text_111">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="602.505432" y="739.655391" transform="rotate(-58 602.505432 739.655391)">superlative quantifiers 1</text>
+     </g>
+    </g>
+    <g id="xtick_98">
+     <g id="line2d_112"/>
+     <g id="text_112">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="621.158275" y="739.655391" transform="rotate(-58 621.158275 739.655391)">BA BEI subj drop</text>
+     </g>
+    </g>
+    <g id="xtick_99">
+     <g id="line2d_113"/>
+     <g id="text_113">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="639.811119" y="739.655391" transform="rotate(-58 639.811119 739.655391)">right yijing a</text>
+     </g>
+    </g>
+    <g id="xtick_100">
+     <g id="line2d_114"/>
+     <g id="text_114">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="658.463963" y="739.655391" transform="rotate(-58 658.463963 739.655391)">noun adjective shi</text>
+     </g>
+    </g>
+    <g id="xtick_101">
+     <g id="line2d_115"/>
+     <g id="text_115">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="677.116807" y="739.655391" transform="rotate(-58 677.116807 739.655391)">agent deletion</text>
+     </g>
+    </g>
+    <g id="xtick_102">
+     <g id="line2d_116"/>
+     <g id="text_116">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="695.76965" y="739.655391" transform="rotate(-58 695.76965 739.655391)">classifier noun...</text>
+     </g>
+    </g>
+    <g id="xtick_103">
+     <g id="line2d_117"/>
+     <g id="text_117">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="714.422494" y="739.655391" transform="rotate(-58 714.422494 739.655391)">preposition insertion</text>
+     </g>
+    </g>
+    <g id="xtick_104">
+     <g id="line2d_118"/>
+     <g id="text_118">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="733.075338" y="739.655391" transform="rotate(-58 733.075338 739.655391)">superlative quantifiers 2</text>
+     </g>
+    </g>
+    <g id="xtick_105">
+     <g id="line2d_119"/>
+     <g id="text_119">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="751.728182" y="739.655391" transform="rotate(-58 751.728182 739.655391)">adjective transitive dui</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_15">
+     <g id="line2d_120"/>
+     <g id="text_120">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="583.605628" transform="rotate(-0 99.55 583.605628)">BABYLM</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_121"/>
+     <g id="text_121">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="607.163741" transform="rotate(-0 99.55 607.163741)">BABYLM-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_122"/>
+     <g id="text_122">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="630.721854" transform="rotate(-0 99.55 630.721854)">CHINESE</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_123"/>
+     <g id="text_123">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="654.279967" transform="rotate(-0 99.55 654.279967)">CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_124"/>
+     <g id="text_124">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="677.83808" transform="rotate(-0 99.55 677.83808)">2CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_125"/>
+     <g id="text_125">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="701.396193" transform="rotate(-0 99.55 701.396193)">INITIALS</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_126"/>
+     <g id="text_126">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="724.954306" transform="rotate(-0 99.55 724.954306)">HANZI</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_5">
+    <path d="M 103.05 1008.297623 
+L 755.899531 1008.297623 
+L 755.899531 843.390832 
+L 103.05 843.390832 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pd4a3e275d7)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagedffb4d2bc7" transform="scale(1 -1) translate(0 -165.6)" x="103.05" y="-842.697623" width="653.04" height="165.6"/>
+   </g>
+   <g id="matplotlib.axis_7">
+    <g id="xtick_106">
+     <g id="line2d_127"/>
+     <g id="text_127">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="133.31467" y="1015.018869" transform="rotate(-58 133.31467 1015.018869)">renhe no superordinate...</text>
+     </g>
+    </g>
+    <g id="xtick_107">
+     <g id="line2d_128"/>
+     <g id="text_128">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="183.533864" y="1015.018869" transform="rotate(-58 183.533864 1015.018869)">BA deletion</text>
+     </g>
+    </g>
+    <g id="xtick_108">
+     <g id="line2d_129"/>
+     <g id="text_129">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="233.753059" y="1015.018869" transform="rotate(-58 233.753059 1015.018869)">BEI deletion</text>
+     </g>
+    </g>
+    <g id="xtick_109">
+     <g id="line2d_130"/>
+     <g id="text_130">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="283.972254" y="1015.018869" transform="rotate(-58 283.972254 1015.018869)">preposition deletion</text>
+     </g>
+    </g>
+    <g id="xtick_110">
+     <g id="line2d_131"/>
+     <g id="text_131">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="334.191449" y="1015.018869" transform="rotate(-58 334.191449 1015.018869)">relative operator...</text>
+     </g>
+    </g>
+    <g id="xtick_111">
+     <g id="line2d_132"/>
+     <g id="text_132">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="384.410643" y="1015.018869" transform="rotate(-58 384.410643 1015.018869)">BA verb le b</text>
+     </g>
+    </g>
+    <g id="xtick_112">
+     <g id="line2d_133"/>
+     <g id="text_133">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="434.629838" y="1015.018869" transform="rotate(-58 434.629838 1015.018869)">passive suo</text>
+     </g>
+    </g>
+    <g id="xtick_113">
+     <g id="line2d_134"/>
+     <g id="text_134">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="484.849033" y="1015.018869" transform="rotate(-58 484.849033 1015.018869)">npi renhe A not A...</text>
+     </g>
+    </g>
+    <g id="xtick_114">
+     <g id="line2d_135"/>
+     <g id="text_135">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="535.068227" y="1015.018869" transform="rotate(-58 535.068227 1015.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="xtick_115">
+     <g id="line2d_136"/>
+     <g id="text_136">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="585.287422" y="1015.018869" transform="rotate(-58 585.287422 1015.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="xtick_116">
+     <g id="line2d_137"/>
+     <g id="text_137">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="635.506617" y="1015.018869" transform="rotate(-58 635.506617 1015.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="xtick_117">
+     <g id="line2d_138"/>
+     <g id="text_138">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="685.725812" y="1015.018869" transform="rotate(-58 685.725812 1015.018869)">fci renhe dou</text>
+     </g>
+    </g>
+    <g id="xtick_118">
+     <g id="line2d_139"/>
+     <g id="text_139">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="735.945006" y="1015.018869" transform="rotate(-58 735.945006 1015.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="text_140">
+     <text style="font-size: 11px; font-family: 'DejaVu Serif'; text-anchor: middle" x="429.474766" y="1121.955457" transform="rotate(-0 429.474766 1121.955457)">Subtask (ranked by mean accuracy across models)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_22">
+     <g id="line2d_140"/>
+     <g id="text_141">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="858.969107" transform="rotate(-0 99.55 858.969107)">BABYLM</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_141"/>
+     <g id="text_142">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="882.52722" transform="rotate(-0 99.55 882.52722)">BABYLM-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_142"/>
+     <g id="text_143">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="906.085333" transform="rotate(-0 99.55 906.085333)">CHINESE</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_143"/>
+     <g id="text_144">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="929.643446" transform="rotate(-0 99.55 929.643446)">CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_144"/>
+     <g id="text_145">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="953.201559" transform="rotate(-0 99.55 953.201559)">2CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_145"/>
+     <g id="text_146">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="976.759672" transform="rotate(-0 99.55 976.759672)">INITIALS</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_146"/>
+     <g id="text_147">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="1000.317785" transform="rotate(-0 99.55 1000.317785)">HANZI</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_6">
+    <path d="M 768.956522 648.193176 
+L 782.013512 648.193176 
+L 782.013512 387.053364 
+L 768.956522 387.053364 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABIAAAFrCAYAAADclNnqAAABw0lEQVR4nO2ay20DMAxDWUH7r9tDAbMjpAeioGlqgIdQ1M9Jvr5/SAhiIIrVfB5gCQ1pHKVpYkm7HEEFIuzspwiEWGkn2H4wVhpVIOTmCLkzmyoQYgcbJRh4VjZjpbH2P2z/UYHYmX1jjoDUyqZb025z9LL9o8Ggb5HX3yKA3WBj7lkDSYwGg+zBBrtHDSUc1P477Ufu7qfbzKYMRA1ocmf2Nkd3XiMUgZD7PSSRO9iYKw0iEOxyRBmIboONdr+uM3awnUp72LWliDS53T+50ja4+2kn7VTa/501x677WWmfoi3y+F47udLYvfYhurI/R/fa5+jKvvEa2R7sL79FtmfNy2fNBFf2scsRK+2+OhoNBpV2p2t0+9J3HYc/NCAGSztmdTS5LTIaDCrtD9Huv3KwQXdoUQOC3b99QLNkj4SCdNfoliPa5QixzyzUtacrm2bdPxIKLHMEtxxt99qFlb25dTQSCrKbFrprhLE5Ym5lI9g1akDse+3ptwjM6mgkFHSvXesaVCDG5gjda9e5NirQJlc2zfbaSChwfEKs3VU7KtAmVzZzux9mORoJBVrXIInJdW0NK5vda/84IZHaIoyt7F8CZCSMuH2/0QAAAABJRU5ErkJggg==" id="imagee8155c8820" transform="scale(1 -1) translate(0 -261.36)" x="768.96" y="-386.64" width="12.96" height="261.36"/>
+   <g id="matplotlib.axis_9"/>
+   <g id="matplotlib.axis_10">
+    <g id="ytick_29">
+     <g id="line2d_147">
+      <defs>
+       <path id="m411951ffde" d="M 0 0 
+L 3.5 0 
+" style="stroke: #374151; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m411951ffde" x="782.013512" y="648.193176" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_148">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.013512" y="651.992395" transform="rotate(-0 789.013512 651.992395)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_148">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.013512" y="595.965214" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_149">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.013512" y="599.764433" transform="rotate(-0 789.013512 599.764433)">20%</text>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_149">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.013512" y="543.737251" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_150">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.013512" y="547.53647" transform="rotate(-0 789.013512 547.53647)">40%</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_150">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.013512" y="491.509289" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_151">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.013512" y="495.308508" transform="rotate(-0 789.013512 495.308508)">60%</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_151">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.013512" y="439.281326" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_152">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.013512" y="443.080545" transform="rotate(-0 789.013512 443.080545)">80%</text>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_152">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.013512" y="387.053364" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_153">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.013512" y="390.852583" transform="rotate(-0 789.013512 390.852583)">100%</text>
+     </g>
+    </g>
+    <g id="text_154">
+     <text style="font-size: 11px; font-family: 'DejaVu Serif'; text-anchor: middle" x="829.80445" y="517.62327" transform="rotate(-90 829.80445 517.62327)">Accuracy</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_7">
+    <path d="M 768.956522 648.193176 
+L 775.485017 648.193176 
+L 782.013512 648.193176 
+L 782.013512 387.053364 
+L 775.485017 387.053364 
+L 768.956522 387.053364 
+L 768.956522 648.193176 
+z
+" style="fill: none; stroke: #4b5563; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_155">
+   <text style="font-weight: 600; font-size: 14px; font-family: 'DejaVu Serif'; text-anchor: middle" x="419.99976" y="17.837812" transform="rotate(-0 419.99976 17.837812)">ZhoBLiMP Subtask Accuracy</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2aa14d38b9">
+   <rect x="103.05" y="26.948917" width="652.849531" height="164.906791"/>
+  </clipPath>
+  <clipPath id="p7bfbd62620">
+   <rect x="103.05" y="299.669811" width="652.849531" height="164.906791"/>
+  </clipPath>
+  <clipPath id="p51b622e9ee">
+   <rect x="103.05" y="568.027353" width="652.849531" height="164.906791"/>
+  </clipPath>
+  <clipPath id="pd4a3e275d7">
+   <rect x="103.05" y="843.390832" width="652.849531" height="164.906791"/>
+  </clipPath>
+ </defs>
+</svg>

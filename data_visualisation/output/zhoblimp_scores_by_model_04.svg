@@ -1,122 +1,277 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1836" height="620" viewBox="0 0 1836 620">
-<style>text{font-family:Arial,sans-serif;fill:#1f2933}.axis{stroke:#9aa5b1;stroke-width:1}.grid{stroke:#e4e7eb;stroke-width:1}.label{font-size:12px}.title{font-size:22px;font-weight:700}.legend{font-size:13px}</style>
-<rect width="1836" height="620" fill="#ffffff"/>
-<text x="76" y="34" class="title">acc by zhoblimp subtask (4/4)</text>
-<line x1="76" y1="450.0" x2="1808" y2="450.0" class="grid"/>
-<text x="66" y="454.0" text-anchor="end" class="label">0.0</text>
-<line x1="76" y1="374.4" x2="1808" y2="374.4" class="grid"/>
-<text x="66" y="378.4" text-anchor="end" class="label">0.2</text>
-<line x1="76" y1="298.8" x2="1808" y2="298.8" class="grid"/>
-<text x="66" y="302.8" text-anchor="end" class="label">0.4</text>
-<line x1="76" y1="223.2" x2="1808" y2="223.2" class="grid"/>
-<text x="66" y="227.2" text-anchor="end" class="label">0.6</text>
-<line x1="76" y1="147.6" x2="1808" y2="147.6" class="grid"/>
-<text x="66" y="151.6" text-anchor="end" class="label">0.8</text>
-<line x1="76" y1="72.0" x2="1808" y2="72.0" class="grid"/>
-<text x="66" y="76.0" text-anchor="end" class="label">1.0</text>
-<line x1="76" y1="72" x2="76" y2="450" class="axis"/>
-<line x1="76" y1="450" x2="1808" y2="450" class="axis"/>
-<rect x="92.7" y="445.0" width="14.7" height="5.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_adjective_transitive_dui: 0.013</title></rect>
-<rect x="109.3" y="214.4" width="14.7" height="235.6" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_adjective_transitive_dui: 0.623</title></rect>
-<rect x="126.0" y="447.5" width="14.7" height="2.5" fill="#55a868"><title>10k_gpu1 | zhoblimp_adjective_transitive_dui: 0.007</title></rect>
-<rect x="142.6" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_adjective_transitive_dui: 0.000</title></rect>
-<rect x="159.3" y="413.5" width="14.7" height="36.5" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_adjective_transitive_dui: 0.097</title></rect>
-<rect x="175.9" y="445.0" width="14.7" height="5.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_adjective_transitive_dui: 0.013</title></rect>
-<text x="142.6" y="466" transform="rotate(62 142.6 466)" class="label">zhoblimp_adjective_transitive_dui</text>
-<rect x="225.9" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BEI_deletion: 0.000</title></rect>
-<rect x="242.5" y="354.2" width="14.7" height="95.8" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BEI_deletion: 0.253</title></rect>
-<rect x="259.2" y="414.7" width="14.7" height="35.3" fill="#55a868"><title>10k_gpu1 | zhoblimp_BEI_deletion: 0.093</title></rect>
-<rect x="275.8" y="443.7" width="14.7" height="6.3" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BEI_deletion: 0.017</title></rect>
-<rect x="292.5" y="447.5" width="14.7" height="2.5" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BEI_deletion: 0.007</title></rect>
-<rect x="309.2" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BEI_deletion: 0.000</title></rect>
-<text x="275.8" y="466" transform="rotate(62 275.8 466)" class="label">zhoblimp_BEI_deletion</text>
-<rect x="359.1" y="443.7" width="14.7" height="6.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_preposition_deletion: 0.017</title></rect>
-<rect x="375.8" y="332.8" width="14.7" height="117.2" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_preposition_deletion: 0.310</title></rect>
-<rect x="392.4" y="443.7" width="14.7" height="6.3" fill="#55a868"><title>10k_gpu1 | zhoblimp_preposition_deletion: 0.017</title></rect>
-<rect x="409.1" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_preposition_deletion: 0.000</title></rect>
-<rect x="425.7" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_preposition_deletion: 0.000</title></rect>
-<rect x="442.4" y="439.9" width="14.7" height="10.1" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_preposition_deletion: 0.027</title></rect>
-<text x="409.1" y="466" transform="rotate(62 409.1 466)" class="label">zhoblimp_preposition_deletion</text>
-<rect x="492.3" y="441.2" width="14.7" height="8.8" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_deletion: 0.023</title></rect>
-<rect x="509.0" y="353.0" width="14.7" height="97.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_deletion: 0.257</title></rect>
-<rect x="525.7" y="445.0" width="14.7" height="5.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_deletion: 0.013</title></rect>
-<rect x="542.3" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_deletion: 0.000</title></rect>
-<rect x="559.0" y="448.7" width="14.7" height="1.3" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_deletion: 0.003</title></rect>
-<rect x="575.6" y="446.2" width="14.7" height="3.8" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_deletion: 0.010</title></rect>
-<text x="542.3" y="466" transform="rotate(62 542.3 466)" class="label">zhoblimp_BA_deletion</text>
-<rect x="625.6" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<rect x="642.2" y="394.6" width="14.7" height="55.4" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_relative_operator_intepretation: 0.147</title></rect>
-<rect x="658.9" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<rect x="675.5" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<rect x="692.2" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<rect x="708.8" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_relative_operator_intepretation: 0.000</title></rect>
-<text x="675.5" y="466" transform="rotate(62 675.5 466)" class="label">zhoblimp_relative_operator_intepr...</text>
-<rect x="758.8" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_suo: 0.000</title></rect>
-<rect x="775.5" y="439.9" width="14.7" height="10.1" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_passive_suo: 0.027</title></rect>
-<rect x="792.1" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_passive_suo: 0.000</title></rect>
-<rect x="808.8" y="436.1" width="14.7" height="13.9" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_passive_suo: 0.037</title></rect>
-<rect x="825.4" y="436.1" width="14.7" height="13.9" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_passive_suo: 0.037</title></rect>
-<rect x="842.1" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_passive_suo: 0.000</title></rect>
-<text x="808.8" y="466" transform="rotate(62 808.8 466)" class="label">zhoblimp_passive_suo</text>
-<rect x="892.0" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<rect x="908.7" y="422.3" width="14.7" height="27.7" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_verb_le_b: 0.073</title></rect>
-<rect x="925.3" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<rect x="942.0" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<rect x="958.7" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<rect x="975.3" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_verb_le_b: 0.000</title></rect>
-<text x="942.0" y="466" transform="rotate(62 942.0 466)" class="label">zhoblimp_BA_verb_le_b</text>
-<rect x="1025.3" y="448.7" width="14.7" height="1.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.003</title></rect>
-<rect x="1041.9" y="433.6" width="14.7" height="16.4" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.043</title></rect>
-<rect x="1058.6" y="447.5" width="14.7" height="2.5" fill="#55a868"><title>10k_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.007</title></rect>
-<rect x="1075.2" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.000</title></rect>
-<rect x="1091.9" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.000</title></rect>
-<rect x="1108.5" y="443.7" width="14.7" height="6.3" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_npi_renhe_A_not_A_question: 0.017</title></rect>
-<text x="1075.2" y="466" transform="rotate(62 1075.2 466)" class="label">zhoblimp_npi_renhe_A_not_A_questi...</text>
-<rect x="1158.5" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.000</title></rect>
-<rect x="1175.2" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.000</title></rect>
-<rect x="1191.8" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.000</title></rect>
-<rect x="1208.5" y="442.4" width="14.7" height="7.6" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.020</title></rect>
-<rect x="1225.1" y="442.4" width="14.7" height="7.6" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.020</title></rect>
-<rect x="1241.8" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_long_right_b: 0.000</title></rect>
-<text x="1208.5" y="466" transform="rotate(62 1208.5 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
-<rect x="1291.7" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
-<rect x="1308.4" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
-<rect x="1325.0" y="446.2" width="14.7" height="3.8" fill="#55a868"><title>10k_gpu1 | zhoblimp_fci_renhe_dou: 0.010</title></rect>
-<rect x="1341.7" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
-<rect x="1358.3" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_fci_renhe_dou: 0.000</title></rect>
-<rect x="1375.0" y="448.7" width="14.7" height="1.3" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_fci_renhe_dou: 0.003</title></rect>
-<text x="1341.7" y="466" transform="rotate(62 1341.7 466)" class="label">zhoblimp_fci_renhe_dou</text>
-<rect x="1425.0" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<rect x="1441.6" y="445.0" width="14.7" height="5.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.013</title></rect>
-<rect x="1458.3" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<rect x="1474.9" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<rect x="1491.6" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<rect x="1508.2" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_long_right_a: 0.000</title></rect>
-<text x="1474.9" y="466" transform="rotate(62 1474.9 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
-<rect x="1558.2" y="448.7" width="14.7" height="1.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_short: 0.003</title></rect>
-<rect x="1574.8" y="448.7" width="14.7" height="1.3" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_short: 0.003</title></rect>
-<rect x="1591.5" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
-<rect x="1608.2" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
-<rect x="1624.8" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
-<rect x="1641.5" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_short: 0.000</title></rect>
-<text x="1608.2" y="466" transform="rotate(62 1608.2 466)" class="label">zhoblimp_passive_agent_deletion_s...</text>
-<rect x="1691.4" y="450.0" width="14.7" height="0.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<rect x="1708.1" y="450.0" width="14.7" height="0.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<rect x="1724.7" y="450.0" width="14.7" height="0.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<rect x="1741.4" y="450.0" width="14.7" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<rect x="1758.0" y="450.0" width="14.7" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<rect x="1774.7" y="450.0" width="14.7" height="0.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_passive_agent_deletion_long_left: 0.000</title></rect>
-<text x="1741.4" y="466" transform="rotate(62 1741.4 466)" class="label">zhoblimp_passive_agent_deletion_l...</text>
-<rect x="76" y="580" width="14" height="14" fill="#2f6f9f"/>
-<text x="96" y="592" class="legend">10k_chinese_gpu1</text>
-<rect x="286" y="580" width="14" height="14" fill="#c44e52"/>
-<text x="306" y="592" class="legend">10k_chinese_whitespace_false_gpu1</text>
-<rect x="496" y="580" width="14" height="14" fill="#55a868"/>
-<text x="516" y="592" class="legend">10k_gpu1</text>
-<rect x="706" y="580" width="14" height="14" fill="#8172b3"/>
-<text x="726" y="592" class="legend">10k_hanzi_gpu1</text>
-<rect x="916" y="580" width="14" height="14" fill="#ccb974"/>
-<text x="936" y="592" class="legend">10k_initials_gpu1</text>
-<rect x="1126" y="580" width="14" height="14" fill="#64b5cd"/>
-<text x="1146" y="592" class="legend">10k_whitespace_false_gpu1</text>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="836.199819pt" height="339.59952pt" viewBox="0 0 836.199819 339.59952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>ZhoBLiMP Subtask Accuracy</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>ZhoBLiMP Subtask Accuracy</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 339.59952 
+L 836.199819 339.59952 
+L 836.199819 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 103.05 222.297623 
+L 756.228263 222.297623 
+L 756.228263 32.837812 
+L 103.05 32.837812 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p4c7bc741ab)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAA4wAAAEICAYAAAAUdHpFAAAHDklEQVR4nO3ZMY7cZBiA4XjsmY1YBIoUIURJgUSZIi0dt+Eg9ByGM3CCKFV6khRIu6x2Z8dDn7zFSqusPczzlOPmk/3Pb7/2cLM/Hp/BA+wPs/MUtuPGeYFH+vfu3jkMX+0m5yXcuR99ZudeBHwhnnQBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAAEIwAAAA8nC+MAAAAJMEIAABAEowAAAAkwQgAAEASjAAAACTBCAAAQBKMAAAAJMEIAACAYAQAAODhfGEEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAANLUP8Pnxs3gtAAAwBnxhREAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIA0Xd/d95Ez9/ufb5YeYXVe/fhi6RFW6WLy3qX8+tP3T34tTsHH69ulR1ilb55vlx6BE7Ib7bufOszHRa7F2o2bYekR4OTZcQEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIA0Xe6mPnLmfvn5u6VHWJ1hWHqCdfrnZr/0CKv07uPV0iOs0svLi6VHWKVpY4MpV7f3T34tTsHXF55dPjX6D6X7ef7yC/IETRvfjHg4qwUAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIAkGAEAAEiCEQAAgCQYAQAASIIRAACAJBgBAABIghEAAIA03OyPxz503u4O89IjrM5u9H6h7K2VtLVeAABOngIAAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgTS9e/9ZHztyHv/5YegROxHw8Lj0C8D+1P8xLj7BK29H7boCnYscFAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAAkmAEAAAgCUYAAACSYAQAACAJRgAAAJJgBAAAIAlGAAAA0vD27+tjHzpvP3z7fOkRVuf91e3SI6zSy8uLpUdYpe3ofRQ81nx0iy6bYbC44BEOs72ljBt7S/FEBwAAQBKMAAAAJMEIAABAEowAAAAkwQgAAEASjAAAACTBCAAAQBKMAAAAJMEIAABAEowAAAAkwQgAAEASjAAAACTBCAAAQBKMAAAAJMEIAABAEowAAAAkwQgAAEASjAAAACTBCAAAQBKMAAAAJMEIAABAEowAAAAkwQgAAEASjAAAACTBCAAAQBKMAAAAJMEIAABAEowAAAAkwQgAAEASjAAAACTBCAAAQBKMAAAAJMEIAABAEowAAAAkwQgAAEASjAAAACTBCAAAwLPyH6odR0IIOytCAAAAAElFTkSuQmCC" id="image65a3114f69" transform="scale(1 -1) translate(0 -190.08)" x="103.05" y="-32.217623" width="653.76" height="190.08"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="133.327313" y="229.018869" transform="rotate(-58 133.327313 229.018869)">renhe no superordinate...</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="183.571795" y="229.018869" transform="rotate(-58 183.571795 229.018869)">BA deletion</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="233.816277" y="229.018869" transform="rotate(-58 233.816277 229.018869)">BEI deletion</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="284.060759" y="229.018869" transform="rotate(-58 284.060759 229.018869)">preposition deletion</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="334.30524" y="229.018869" transform="rotate(-58 334.30524 229.018869)">relative operator...</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="384.549722" y="229.018869" transform="rotate(-58 384.549722 229.018869)">BA verb le b</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="434.794204" y="229.018869" transform="rotate(-58 434.794204 229.018869)">passive suo</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="485.038686" y="229.018869" transform="rotate(-58 485.038686 229.018869)">npi renhe A not A...</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="535.283167" y="229.018869" transform="rotate(-58 535.283167 229.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="585.527649" y="229.018869" transform="rotate(-58 585.527649 229.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="635.772131" y="229.018869" transform="rotate(-58 635.772131 229.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="686.016613" y="229.018869" transform="rotate(-58 686.016613 229.018869)">fci renhe dou</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="736.261095" y="229.018869" transform="rotate(-58 736.261095 229.018869)">passive agent deletion...</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 11px; font-family: 'DejaVu Serif'; text-anchor: middle" x="429.639132" y="329.955457" transform="rotate(-0 429.639132 329.955457)">Subtask (ranked by mean accuracy across models)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_14"/>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="50.169875" transform="rotate(-0 99.55 50.169875)">BABYLM</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_15"/>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="77.235562" transform="rotate(-0 99.55 77.235562)">BABYLM-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_16"/>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="104.301249" transform="rotate(-0 99.55 104.301249)">CHINESE</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_17"/>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="131.366936" transform="rotate(-0 99.55 131.366936)">CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_18"/>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="158.432624" transform="rotate(-0 99.55 158.432624)">2CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_19"/>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="185.498311" transform="rotate(-0 99.55 185.498311)">INITIALS</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_20"/>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="212.563998" transform="rotate(-0 99.55 212.563998)">HANZI</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 600; font-size: 14px; font-family: 'DejaVu Serif'; text-anchor: middle" x="429.639132" y="17.837812" transform="rotate(-0 429.639132 17.837812)">ZhoBLiMP Subtask Accuracy (4/4)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 769.291828 222.297623 
+L 778.764819 222.297623 
+L 778.764819 32.837812 
+L 769.291828 32.837812 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA4AAAEHCAYAAACeMHetAAABJ0lEQVR4nO2YQY5DIQxD36Dc/7qzqIR7gm7cFtUk7K33ExwD/+//IWGs8mRQwlPWG0RvlUxkvUEk51PlCbdPJMZycoU0mA55xOXJaJIAnDe5TCE2kZTm7JixqpkOuh8BOk2UK2Sm44eSfJNigOXxyMpVuURmrF6tuSB1PwI297/KFZRy2ESuf1vtIX6+q8tSEbYdeyz3Q/so+7TSEF+t6eqXnCNPuBuElWaQW4fV8mS0aE51IGrisbcB9hCv6KrmVd77LrdPE5fHo0Vz6jyR408k3H+PuM0hqUalGIDj/5BJqlEmUSnOWZaKqBqrwSAvS0XWp9IiAbh+OmiRABwmkmRy5dSIK9T1JqfBdUUtTK6zwmWpiLrn1CTAV85HcrZDHRIAUxhT4xPCsiPEkwr0yQAAAABJRU5ErkJggg==" id="image3d31198a84" transform="scale(1 -1) translate(0 -189.36)" x="768.96" y="-32.4" width="10.08" height="189.36"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_21">
+      <defs>
+       <path id="m411951ffde" d="M 0 0 
+L 3.5 0 
+" style="stroke: #374151; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m411951ffde" x="778.764819" y="222.297623" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="785.764819" y="226.096841" transform="rotate(-0 785.764819 226.096841)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m411951ffde" x="778.764819" y="184.405661" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="785.764819" y="188.204879" transform="rotate(-0 785.764819 188.204879)">20%</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m411951ffde" x="778.764819" y="146.513699" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="785.764819" y="150.312917" transform="rotate(-0 785.764819 150.312917)">40%</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m411951ffde" x="778.764819" y="108.621737" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="785.764819" y="112.420955" transform="rotate(-0 785.764819 112.420955)">60%</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m411951ffde" x="778.764819" y="70.729775" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="785.764819" y="74.528993" transform="rotate(-0 785.764819 74.528993)">80%</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m411951ffde" x="778.764819" y="32.837812" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="785.764819" y="36.637031" transform="rotate(-0 785.764819 36.637031)">100%</text>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 11px; font-family: 'DejaVu Serif'; text-anchor: middle" x="826.555756" y="127.567718" transform="rotate(-90 826.555756 127.567718)">Accuracy</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_4">
+    <path d="M 769.291828 222.297623 
+L 774.028324 222.297623 
+L 778.764819 222.297623 
+L 778.764819 32.837812 
+L 774.028324 32.837812 
+L 769.291828 32.837812 
+L 769.291828 222.297623 
+z
+" style="fill: none; stroke: #4b5563; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4c7bc741ab">
+   <rect x="103.05" y="32.837812" width="653.178263" height="189.45981"/>
+  </clipPath>
+ </defs>
 </svg>

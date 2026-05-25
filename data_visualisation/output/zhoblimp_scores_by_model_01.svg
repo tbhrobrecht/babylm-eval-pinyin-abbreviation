@@ -1,276 +1,409 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="4740" height="620" viewBox="0 0 4740 620">
-<style>text{font-family:Arial,sans-serif;fill:#1f2933}.axis{stroke:#9aa5b1;stroke-width:1}.grid{stroke:#e4e7eb;stroke-width:1}.label{font-size:12px}.title{font-size:22px;font-weight:700}.legend{font-size:13px}</style>
-<rect width="4740" height="620" fill="#ffffff"/>
-<text x="76" y="34" class="title">acc by zhoblimp subtask (1/4)</text>
-<line x1="76" y1="450.0" x2="4712" y2="450.0" class="grid"/>
-<text x="66" y="454.0" text-anchor="end" class="label">0.0</text>
-<line x1="76" y1="374.4" x2="4712" y2="374.4" class="grid"/>
-<text x="66" y="378.4" text-anchor="end" class="label">0.2</text>
-<line x1="76" y1="298.8" x2="4712" y2="298.8" class="grid"/>
-<text x="66" y="302.8" text-anchor="end" class="label">0.4</text>
-<line x1="76" y1="223.2" x2="4712" y2="223.2" class="grid"/>
-<text x="66" y="227.2" text-anchor="end" class="label">0.6</text>
-<line x1="76" y1="147.6" x2="4712" y2="147.6" class="grid"/>
-<text x="66" y="151.6" text-anchor="end" class="label">0.8</text>
-<line x1="76" y1="72.0" x2="4712" y2="72.0" class="grid"/>
-<text x="66" y="76.0" text-anchor="end" class="label">1.0</text>
-<line x1="76" y1="72" x2="76" y2="450" class="axis"/>
-<line x1="76" y1="450" x2="4712" y2="450" class="axis"/>
-<rect x="92.6" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_meiba: 1.000</title></rect>
-<rect x="109.1" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_meiba: 1.000</title></rect>
-<rect x="125.7" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_meiba: 1.000</title></rect>
-<rect x="142.2" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_meiba: 1.000</title></rect>
-<rect x="158.8" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_meiba: 1.000</title></rect>
-<rect x="175.3" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_meiba: 1.000</title></rect>
-<text x="142.2" y="466" transform="rotate(62 142.2 466)" class="label">zhoblimp_BA_meiba</text>
-<rect x="225.0" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_question_A_not_A_indirect: 1.000</title></rect>
-<rect x="241.6" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_question_A_not_A_indirect: 1.000</title></rect>
-<rect x="258.1" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_question_A_not_A_indirect: 1.000</title></rect>
-<rect x="274.7" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_question_A_not_A_indirect: 1.000</title></rect>
-<rect x="291.2" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_question_A_not_A_indirect: 1.000</title></rect>
-<rect x="307.8" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_question_A_not_A_indirect: 1.000</title></rect>
-<text x="274.7" y="466" transform="rotate(62 274.7 466)" class="label">zhoblimp_question_A_not_A_indirect</text>
-<rect x="357.5" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_principle_A_c_command: 1.000</title></rect>
-<rect x="374.0" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_principle_A_c_command: 1.000</title></rect>
-<rect x="390.6" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_principle_A_c_command: 1.000</title></rect>
-<rect x="407.1" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_principle_A_c_command: 1.000</title></rect>
-<rect x="423.7" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_principle_A_c_command: 1.000</title></rect>
-<rect x="440.3" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_principle_A_c_command: 1.000</title></rect>
-<text x="407.1" y="466" transform="rotate(62 407.1 466)" class="label">zhoblimp_principle_A_c_command</text>
-<rect x="489.9" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_verb_le_a: 1.000</title></rect>
-<rect x="506.5" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_verb_le_a: 1.000</title></rect>
-<rect x="523.0" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_verb_le_a: 1.000</title></rect>
-<rect x="539.6" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_verb_le_a: 1.000</title></rect>
-<rect x="556.2" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_verb_le_a: 1.000</title></rect>
-<rect x="572.7" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_verb_le_a: 1.000</title></rect>
-<text x="539.6" y="466" transform="rotate(62 539.6 466)" class="label">zhoblimp_BA_verb_le_a</text>
-<rect x="622.4" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_suo_adverbial_b: 1.000</title></rect>
-<rect x="638.9" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_suo_adverbial_b: 1.000</title></rect>
-<rect x="655.5" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_suo_adverbial_b: 1.000</title></rect>
-<rect x="672.1" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_suo_adverbial_b: 1.000</title></rect>
-<rect x="688.6" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_suo_adverbial_b: 1.000</title></rect>
-<rect x="705.2" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_suo_adverbial_b: 1.000</title></rect>
-<text x="672.1" y="466" transform="rotate(62 672.1 466)" class="label">zhoblimp_BA_suo_adverbial_b</text>
-<rect x="754.8" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_ellipsis_double_object: 1.000</title></rect>
-<rect x="771.4" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_ellipsis_double_object: 1.000</title></rect>
-<rect x="788.0" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_ellipsis_double_object: 1.000</title></rect>
-<rect x="804.5" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_ellipsis_double_object: 1.000</title></rect>
-<rect x="821.1" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_ellipsis_double_object: 1.000</title></rect>
-<rect x="837.6" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_ellipsis_double_object: 1.000</title></rect>
-<text x="804.5" y="466" transform="rotate(62 804.5 466)" class="label">zhoblimp_ellipsis_double_object</text>
-<rect x="887.3" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_principle_A_domain: 1.000</title></rect>
-<rect x="903.9" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_principle_A_domain: 1.000</title></rect>
-<rect x="920.4" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_principle_A_domain: 1.000</title></rect>
-<rect x="937.0" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_principle_A_domain: 1.000</title></rect>
-<rect x="953.5" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_principle_A_domain: 1.000</title></rect>
-<rect x="970.1" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_principle_A_domain: 1.000</title></rect>
-<text x="937.0" y="466" transform="rotate(62 937.0 466)" class="label">zhoblimp_principle_A_domain</text>
-<rect x="1019.8" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_duplicate_argument: 1.000</title></rect>
-<rect x="1036.3" y="73.3" width="14.6" height="376.7" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_duplicate_argument: 0.997</title></rect>
-<rect x="1052.9" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_duplicate_argument: 1.000</title></rect>
-<rect x="1069.4" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_duplicate_argument: 1.000</title></rect>
-<rect x="1086.0" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_duplicate_argument: 1.000</title></rect>
-<rect x="1102.5" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_duplicate_argument: 1.000</title></rect>
-<text x="1069.4" y="466" transform="rotate(62 1069.4 466)" class="label">zhoblimp_BA_duplicate_argument</text>
-<rect x="1152.2" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_classifier_noun_subj: 1.000</title></rect>
-<rect x="1168.8" y="79.6" width="14.6" height="370.4" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_classifier_noun_subj: 0.980</title></rect>
-<rect x="1185.3" y="73.3" width="14.6" height="376.7" fill="#55a868"><title>10k_gpu1 | zhoblimp_classifier_noun_subj: 0.997</title></rect>
-<rect x="1201.9" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_classifier_noun_subj: 1.000</title></rect>
-<rect x="1218.4" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_classifier_noun_subj: 1.000</title></rect>
-<rect x="1235.0" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_classifier_noun_subj: 1.000</title></rect>
-<text x="1201.9" y="466" transform="rotate(62 1201.9 466)" class="label">zhoblimp_classifier_noun_subj</text>
-<rect x="1284.7" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_fci_renhe_suoyou: 1.000</title></rect>
-<rect x="1301.2" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_fci_renhe_suoyou: 1.000</title></rect>
-<rect x="1317.8" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_fci_renhe_suoyou: 1.000</title></rect>
-<rect x="1334.3" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_fci_renhe_suoyou: 1.000</title></rect>
-<rect x="1350.9" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_fci_renhe_suoyou: 1.000</title></rect>
-<rect x="1367.5" y="80.8" width="14.6" height="369.2" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_fci_renhe_suoyou: 0.977</title></rect>
-<text x="1334.3" y="466" transform="rotate(62 1334.3 466)" class="label">zhoblimp_fci_renhe_suoyou</text>
-<rect x="1417.1" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_question_A_not_A: 1.000</title></rect>
-<rect x="1433.7" y="75.8" width="14.6" height="374.2" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_question_A_not_A: 0.990</title></rect>
-<rect x="1450.2" y="73.3" width="14.6" height="376.7" fill="#55a868"><title>10k_gpu1 | zhoblimp_question_A_not_A: 0.997</title></rect>
-<rect x="1466.8" y="73.3" width="14.6" height="376.7" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_question_A_not_A: 0.997</title></rect>
-<rect x="1483.4" y="74.5" width="14.6" height="375.5" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_question_A_not_A: 0.993</title></rect>
-<rect x="1499.9" y="73.3" width="14.6" height="376.7" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_question_A_not_A: 0.997</title></rect>
-<text x="1466.8" y="466" transform="rotate(62 1466.8 466)" class="label">zhoblimp_question_A_not_A</text>
-<rect x="1549.6" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_fci_renhe_ruguo: 1.000</title></rect>
-<rect x="1566.1" y="89.6" width="14.6" height="360.4" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_fci_renhe_ruguo: 0.953</title></rect>
-<rect x="1582.7" y="74.5" width="14.6" height="375.5" fill="#55a868"><title>10k_gpu1 | zhoblimp_fci_renhe_ruguo: 0.993</title></rect>
-<rect x="1599.3" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_fci_renhe_ruguo: 1.000</title></rect>
-<rect x="1615.8" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_fci_renhe_ruguo: 1.000</title></rect>
-<rect x="1632.4" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_fci_renhe_ruguo: 1.000</title></rect>
-<text x="1599.3" y="466" transform="rotate(62 1599.3 466)" class="label">zhoblimp_fci_renhe_ruguo</text>
-<rect x="1682.0" y="97.2" width="14.6" height="352.8" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_principle_A_domain_number: 0.933</title></rect>
-<rect x="1698.6" y="85.9" width="14.6" height="364.1" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_principle_A_domain_number: 0.963</title></rect>
-<rect x="1715.2" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_principle_A_domain_number: 1.000</title></rect>
-<rect x="1731.7" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_principle_A_domain_number: 1.000</title></rect>
-<rect x="1748.3" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_principle_A_domain_number: 1.000</title></rect>
-<rect x="1764.8" y="78.3" width="14.6" height="371.7" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_principle_A_domain_number: 0.983</title></rect>
-<text x="1731.7" y="466" transform="rotate(62 1731.7 466)" class="label">zhoblimp_principle_A_domain_number</text>
-<rect x="1814.5" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_relativization_movement_when_where: 1.000</title></rect>
-<rect x="1831.1" y="118.6" width="14.6" height="331.4" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_relativization_movement_when_where: 0.877</title></rect>
-<rect x="1847.6" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_relativization_movement_when_where: 1.000</title></rect>
-<rect x="1864.2" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_relativization_movement_when_where: 1.000</title></rect>
-<rect x="1880.7" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_relativization_movement_when_where: 1.000</title></rect>
-<rect x="1897.3" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_relativization_movement_when_where: 1.000</title></rect>
-<text x="1864.2" y="466" transform="rotate(62 1864.2 466)" class="label">zhoblimp_relativization_movement_...</text>
-<rect x="1947.0" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_plural_cardinal_men_b: 1.000</title></rect>
-<rect x="1963.5" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_plural_cardinal_men_b: 1.000</title></rect>
-<rect x="1980.1" y="79.6" width="14.6" height="370.4" fill="#55a868"><title>10k_gpu1 | zhoblimp_plural_cardinal_men_b: 0.980</title></rect>
-<rect x="1996.6" y="92.2" width="14.6" height="357.8" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_plural_cardinal_men_b: 0.947</title></rect>
-<rect x="2013.2" y="92.2" width="14.6" height="357.8" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_plural_cardinal_men_b: 0.947</title></rect>
-<rect x="2029.7" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_plural_cardinal_men_b: 1.000</title></rect>
-<text x="1996.6" y="466" transform="rotate(62 1996.6 466)" class="label">zhoblimp_plural_cardinal_men_b</text>
-<rect x="2079.4" y="73.3" width="14.6" height="376.7" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_plural_cardinal_men_a: 0.997</title></rect>
-<rect x="2096.0" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_plural_cardinal_men_a: 1.000</title></rect>
-<rect x="2112.5" y="83.3" width="14.6" height="366.7" fill="#55a868"><title>10k_gpu1 | zhoblimp_plural_cardinal_men_a: 0.970</title></rect>
-<rect x="2129.1" y="90.9" width="14.6" height="359.1" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_plural_cardinal_men_a: 0.950</title></rect>
-<rect x="2145.6" y="90.9" width="14.6" height="359.1" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_plural_cardinal_men_a: 0.950</title></rect>
-<rect x="2162.2" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_plural_cardinal_men_a: 1.000</title></rect>
-<text x="2129.1" y="466" transform="rotate(62 2129.1 466)" class="label">zhoblimp_plural_cardinal_men_a</text>
-<rect x="2211.9" y="85.9" width="14.6" height="364.1" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_suo_adverbial_a: 0.963</title></rect>
-<rect x="2228.4" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_suo_adverbial_a: 1.000</title></rect>
-<rect x="2245.0" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_suo_adverbial_a: 1.000</title></rect>
-<rect x="2261.5" y="90.9" width="14.6" height="359.1" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_suo_adverbial_a: 0.950</title></rect>
-<rect x="2278.1" y="90.9" width="14.6" height="359.1" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_suo_adverbial_a: 0.950</title></rect>
-<rect x="2294.7" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_suo_adverbial_a: 1.000</title></rect>
-<text x="2261.5" y="466" transform="rotate(62 2261.5 466)" class="label">zhoblimp_BA_suo_adverbial_a</text>
-<rect x="2344.3" y="79.6" width="14.6" height="370.4" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_nominal_definite_men: 0.980</title></rect>
-<rect x="2360.9" y="90.9" width="14.6" height="359.1" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_nominal_definite_men: 0.950</title></rect>
-<rect x="2377.4" y="73.3" width="14.6" height="376.7" fill="#55a868"><title>10k_gpu1 | zhoblimp_nominal_definite_men: 0.997</title></rect>
-<rect x="2394.0" y="92.2" width="14.6" height="357.8" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_nominal_definite_men: 0.947</title></rect>
-<rect x="2410.6" y="92.2" width="14.6" height="357.8" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_nominal_definite_men: 0.947</title></rect>
-<rect x="2427.1" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_nominal_definite_men: 1.000</title></rect>
-<text x="2394.0" y="466" transform="rotate(62 2394.0 466)" class="label">zhoblimp_nominal_definite_men</text>
-<rect x="2476.8" y="74.5" width="14.6" height="375.5" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_you_yige: 0.993</title></rect>
-<rect x="2493.3" y="130.0" width="14.6" height="320.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_you_yige: 0.847</title></rect>
-<rect x="2509.9" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_you_yige: 1.000</title></rect>
-<rect x="2526.5" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_you_yige: 1.000</title></rect>
-<rect x="2543.0" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_you_yige: 1.000</title></rect>
-<rect x="2559.6" y="104.8" width="14.6" height="345.2" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_you_yige: 0.913</title></rect>
-<text x="2526.5" y="466" transform="rotate(62 2526.5 466)" class="label">zhoblimp_you_yige</text>
-<rect x="2609.2" y="94.7" width="14.6" height="355.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_control_modal_vs_raising_modal: 0.940</title></rect>
-<rect x="2625.8" y="79.6" width="14.6" height="370.4" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_control_modal_vs_raising_modal: 0.980</title></rect>
-<rect x="2642.4" y="98.5" width="14.6" height="351.5" fill="#55a868"><title>10k_gpu1 | zhoblimp_control_modal_vs_raising_modal: 0.930</title></rect>
-<rect x="2658.9" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_control_modal_vs_raising_modal: 1.000</title></rect>
-<rect x="2675.5" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_control_modal_vs_raising_modal: 1.000</title></rect>
-<rect x="2692.0" y="126.2" width="14.6" height="323.8" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_control_modal_vs_raising_modal: 0.857</title></rect>
-<text x="2658.9" y="466" transform="rotate(62 2658.9 466)" class="label">zhoblimp_control_modal_vs_raising...</text>
-<rect x="2741.7" y="74.5" width="14.6" height="375.5" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_PN_numP_a: 0.993</title></rect>
-<rect x="2758.3" y="184.1" width="14.6" height="265.9" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_PN_numP_a: 0.703</title></rect>
-<rect x="2774.8" y="77.0" width="14.6" height="373.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_PN_numP_a: 0.987</title></rect>
-<rect x="2791.4" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_PN_numP_a: 1.000</title></rect>
-<rect x="2807.9" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_PN_numP_a: 1.000</title></rect>
-<rect x="2824.5" y="72.0" width="14.6" height="378.0" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_PN_numP_a: 1.000</title></rect>
-<text x="2791.4" y="466" transform="rotate(62 2791.4 466)" class="label">zhoblimp_PN_numP_a</text>
-<rect x="2874.2" y="92.2" width="14.6" height="357.8" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_no_progressive: 0.947</title></rect>
-<rect x="2890.7" y="111.1" width="14.6" height="338.9" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_no_progressive: 0.897</title></rect>
-<rect x="2907.3" y="80.8" width="14.6" height="369.2" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_no_progressive: 0.977</title></rect>
-<rect x="2923.8" y="93.4" width="14.6" height="356.6" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_no_progressive: 0.943</title></rect>
-<rect x="2940.4" y="73.3" width="14.6" height="376.7" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_no_progressive: 0.997</title></rect>
-<rect x="2956.9" y="104.8" width="14.6" height="345.2" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_no_progressive: 0.913</title></rect>
-<text x="2923.8" y="466" transform="rotate(62 2923.8 466)" class="label">zhoblimp_BA_no_progressive</text>
-<rect x="3006.6" y="74.5" width="14.6" height="375.5" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_relativization_movement_no_gap: 0.993</title></rect>
-<rect x="3023.2" y="118.6" width="14.6" height="331.4" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_relativization_movement_no_gap: 0.877</title></rect>
-<rect x="3039.7" y="87.1" width="14.6" height="362.9" fill="#55a868"><title>10k_gpu1 | zhoblimp_relativization_movement_no_gap: 0.960</title></rect>
-<rect x="3056.3" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_relativization_movement_no_gap: 1.000</title></rect>
-<rect x="3072.8" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_relativization_movement_no_gap: 1.000</title></rect>
-<rect x="3089.4" y="170.3" width="14.6" height="279.7" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_relativization_movement_no_gap: 0.740</title></rect>
-<text x="3056.3" y="466" transform="rotate(62 3056.3 466)" class="label">zhoblimp_relativization_movement_...</text>
-<rect x="3139.1" y="103.5" width="14.6" height="346.5" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_BA_no_stative_verb: 0.917</title></rect>
-<rect x="3155.6" y="72.0" width="14.6" height="378.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_BA_no_stative_verb: 1.000</title></rect>
-<rect x="3172.2" y="74.5" width="14.6" height="375.5" fill="#55a868"><title>10k_gpu1 | zhoblimp_BA_no_stative_verb: 0.993</title></rect>
-<rect x="3188.7" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_BA_no_stative_verb: 1.000</title></rect>
-<rect x="3205.3" y="189.2" width="14.6" height="260.8" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_BA_no_stative_verb: 0.690</title></rect>
-<rect x="3221.9" y="102.2" width="14.6" height="347.8" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_BA_no_stative_verb: 0.920</title></rect>
-<text x="3188.7" y="466" transform="rotate(62 3188.7 466)" class="label">zhoblimp_BA_no_stative_verb</text>
-<rect x="3271.5" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_question_daodi_negation: 1.000</title></rect>
-<rect x="3288.1" y="107.3" width="14.6" height="342.7" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_question_daodi_negation: 0.907</title></rect>
-<rect x="3304.6" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_question_daodi_negation: 1.000</title></rect>
-<rect x="3321.2" y="224.5" width="14.6" height="225.5" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_question_daodi_negation: 0.597</title></rect>
-<rect x="3337.8" y="216.9" width="14.6" height="233.1" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_question_daodi_negation: 0.617</title></rect>
-<rect x="3354.3" y="75.8" width="14.6" height="374.2" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_question_daodi_negation: 0.990</title></rect>
-<text x="3321.2" y="466" transform="rotate(62 3321.2 466)" class="label">zhoblimp_question_daodi_negation</text>
-<rect x="3404.0" y="114.8" width="14.6" height="335.2" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_noun_phrase_conjunction_jian: 0.887</title></rect>
-<rect x="3420.5" y="80.8" width="14.6" height="369.2" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_noun_phrase_conjunction_jian: 0.977</title></rect>
-<rect x="3437.1" y="109.8" width="14.6" height="340.2" fill="#55a868"><title>10k_gpu1 | zhoblimp_noun_phrase_conjunction_jian: 0.900</title></rect>
-<rect x="3453.7" y="284.9" width="14.6" height="165.1" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_noun_phrase_conjunction_jian: 0.437</title></rect>
-<rect x="3470.2" y="102.2" width="14.6" height="347.8" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_noun_phrase_conjunction_jian: 0.920</title></rect>
-<rect x="3486.8" y="93.4" width="14.6" height="356.6" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_noun_phrase_conjunction_jian: 0.943</title></rect>
-<text x="3453.7" y="466" transform="rotate(62 3453.7 466)" class="label">zhoblimp_noun_phrase_conjunction_...</text>
-<rect x="3536.4" y="116.1" width="14.6" height="333.9" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_classifier_noun_agreement: 0.883</title></rect>
-<rect x="3553.0" y="127.4" width="14.6" height="322.6" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_classifier_noun_agreement: 0.853</title></rect>
-<rect x="3569.6" y="114.8" width="14.6" height="335.2" fill="#55a868"><title>10k_gpu1 | zhoblimp_classifier_noun_agreement: 0.887</title></rect>
-<rect x="3586.1" y="187.9" width="14.6" height="262.1" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_classifier_noun_agreement: 0.693</title></rect>
-<rect x="3602.7" y="152.6" width="14.6" height="297.4" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_classifier_noun_agreement: 0.787</title></rect>
-<rect x="3619.2" y="111.1" width="14.6" height="338.9" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_classifier_noun_agreement: 0.897</title></rect>
-<text x="3586.1" y="466" transform="rotate(62 3586.1 466)" class="label">zhoblimp_classifier_noun_agreement</text>
-<rect x="3668.9" y="78.3" width="14.6" height="371.7" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_PN_numP_b: 0.983</title></rect>
-<rect x="3685.5" y="77.0" width="14.6" height="373.0" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_PN_numP_b: 0.987</title></rect>
-<rect x="3702.0" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_PN_numP_b: 1.000</title></rect>
-<rect x="3718.6" y="219.4" width="14.6" height="230.6" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_PN_numP_b: 0.610</title></rect>
-<rect x="3735.1" y="213.1" width="14.6" height="236.9" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_PN_numP_b: 0.627</title></rect>
-<rect x="3751.7" y="165.2" width="14.6" height="284.8" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_PN_numP_b: 0.753</title></rect>
-<text x="3718.6" y="466" transform="rotate(62 3718.6 466)" class="label">zhoblimp_PN_numP_b</text>
-<rect x="3801.4" y="73.3" width="14.6" height="376.7" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_question_nandao_negation: 0.997</title></rect>
-<rect x="3817.9" y="102.2" width="14.6" height="347.8" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_question_nandao_negation: 0.920</title></rect>
-<rect x="3834.5" y="73.3" width="14.6" height="376.7" fill="#55a868"><title>10k_gpu1 | zhoblimp_question_nandao_negation: 0.997</title></rect>
-<rect x="3851.0" y="244.6" width="14.6" height="205.4" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_question_nandao_negation: 0.543</title></rect>
-<rect x="3867.6" y="262.3" width="14.6" height="187.7" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_question_nandao_negation: 0.497</title></rect>
-<rect x="3884.1" y="107.3" width="14.6" height="342.7" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_question_nandao_negation: 0.907</title></rect>
-<text x="3851.0" y="466" transform="rotate(62 3851.0 466)" class="label">zhoblimp_question_nandao_negation</text>
-<rect x="3933.8" y="73.3" width="14.6" height="376.7" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_singular_PN_but_plural_pron: 0.997</title></rect>
-<rect x="3950.4" y="107.3" width="14.6" height="342.7" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_singular_PN_but_plural_pron: 0.907</title></rect>
-<rect x="3966.9" y="135.0" width="14.6" height="315.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_singular_PN_but_plural_pron: 0.833</title></rect>
-<rect x="3983.5" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_singular_PN_but_plural_pron: 1.000</title></rect>
-<rect x="4000.0" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_singular_PN_but_plural_pron: 1.000</title></rect>
-<rect x="4016.6" y="417.2" width="14.6" height="32.8" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_singular_PN_but_plural_pron: 0.087</title></rect>
-<text x="3983.5" y="466" transform="rotate(62 3983.5 466)" class="label">zhoblimp_singular_PN_but_plural_p...</text>
-<rect x="4066.3" y="117.4" width="14.6" height="332.6" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_question_daodi_nandao_1: 0.880</title></rect>
-<rect x="4082.8" y="167.8" width="14.6" height="282.2" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_question_daodi_nandao_1: 0.747</title></rect>
-<rect x="4099.4" y="102.2" width="14.6" height="347.8" fill="#55a868"><title>10k_gpu1 | zhoblimp_question_daodi_nandao_1: 0.920</title></rect>
-<rect x="4115.9" y="170.3" width="14.6" height="279.7" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_question_daodi_nandao_1: 0.740</title></rect>
-<rect x="4132.5" y="72.0" width="14.6" height="378.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_question_daodi_nandao_1: 1.000</title></rect>
-<rect x="4149.1" y="272.3" width="14.6" height="177.7" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_question_daodi_nandao_1: 0.470</title></rect>
-<text x="4115.9" y="466" transform="rotate(62 4115.9 466)" class="label">zhoblimp_question_daodi_nandao_1</text>
-<rect x="4198.7" y="123.7" width="14.6" height="326.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_relative_operator_who: 0.863</title></rect>
-<rect x="4215.3" y="98.5" width="14.6" height="351.5" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_relative_operator_who: 0.930</title></rect>
-<rect x="4231.8" y="93.4" width="14.6" height="356.6" fill="#55a868"><title>10k_gpu1 | zhoblimp_relative_operator_who: 0.943</title></rect>
-<rect x="4248.4" y="72.0" width="14.6" height="378.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_relative_operator_who: 1.000</title></rect>
-<rect x="4265.0" y="450.0" width="14.6" height="0.0" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_relative_operator_who: 0.000</title></rect>
-<rect x="4281.5" y="87.1" width="14.6" height="362.9" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_relative_operator_who: 0.960</title></rect>
-<text x="4248.4" y="466" transform="rotate(62 4248.4 466)" class="label">zhoblimp_relative_operator_who</text>
-<rect x="4331.2" y="72.0" width="14.6" height="378.0" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_question_nandao_raising_1_a: 1.000</title></rect>
-<rect x="4347.7" y="97.2" width="14.6" height="352.8" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_question_nandao_raising_1_a: 0.933</title></rect>
-<rect x="4364.3" y="72.0" width="14.6" height="378.0" fill="#55a868"><title>10k_gpu1 | zhoblimp_question_nandao_raising_1_a: 1.000</title></rect>
-<rect x="4380.9" y="450.0" width="14.6" height="0.0" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_question_nandao_raising_1_a: 0.000</title></rect>
-<rect x="4397.4" y="90.9" width="14.6" height="359.1" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_question_nandao_raising_1_a: 0.950</title></rect>
-<rect x="4414.0" y="153.9" width="14.6" height="296.1" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_question_nandao_raising_1_a: 0.783</title></rect>
-<text x="4380.9" y="466" transform="rotate(62 4380.9 466)" class="label">zhoblimp_question_nandao_raising_...</text>
-<rect x="4463.6" y="123.7" width="14.6" height="326.3" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_left_dou: 0.863</title></rect>
-<rect x="4480.2" y="116.1" width="14.6" height="333.9" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_left_dou: 0.883</title></rect>
-<rect x="4496.8" y="88.4" width="14.6" height="361.6" fill="#55a868"><title>10k_gpu1 | zhoblimp_left_dou: 0.957</title></rect>
-<rect x="4513.3" y="284.9" width="14.6" height="165.1" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_left_dou: 0.437</title></rect>
-<rect x="4529.9" y="257.2" width="14.6" height="192.8" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_left_dou: 0.510</title></rect>
-<rect x="4546.4" y="136.3" width="14.6" height="313.7" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_left_dou: 0.830</title></rect>
-<text x="4513.3" y="466" transform="rotate(62 4513.3 466)" class="label">zhoblimp_left_dou</text>
-<rect x="4596.1" y="213.1" width="14.6" height="236.9" fill="#2f6f9f"><title>10k_chinese_gpu1 | zhoblimp_question_V_not_VP_2: 0.627</title></rect>
-<rect x="4612.7" y="83.3" width="14.6" height="366.7" fill="#c44e52"><title>10k_chinese_whitespace_false_gpu1 | zhoblimp_question_V_not_VP_2: 0.970</title></rect>
-<rect x="4629.2" y="189.2" width="14.6" height="260.8" fill="#55a868"><title>10k_gpu1 | zhoblimp_question_V_not_VP_2: 0.690</title></rect>
-<rect x="4645.8" y="218.2" width="14.6" height="231.8" fill="#8172b3"><title>10k_hanzi_gpu1 | zhoblimp_question_V_not_VP_2: 0.613</title></rect>
-<rect x="4662.3" y="283.7" width="14.6" height="166.3" fill="#ccb974"><title>10k_initials_gpu1 | zhoblimp_question_V_not_VP_2: 0.440</title></rect>
-<rect x="4678.9" y="88.4" width="14.6" height="361.6" fill="#64b5cd"><title>10k_whitespace_false_gpu1 | zhoblimp_question_V_not_VP_2: 0.957</title></rect>
-<text x="4645.8" y="466" transform="rotate(62 4645.8 466)" class="label">zhoblimp_question_V_not_VP_2</text>
-<rect x="76" y="580" width="14" height="14" fill="#2f6f9f"/>
-<text x="96" y="592" class="legend">10k_chinese_gpu1</text>
-<rect x="286" y="580" width="14" height="14" fill="#c44e52"/>
-<text x="306" y="592" class="legend">10k_chinese_whitespace_false_gpu1</text>
-<rect x="496" y="580" width="14" height="14" fill="#55a868"/>
-<text x="516" y="592" class="legend">10k_gpu1</text>
-<rect x="706" y="580" width="14" height="14" fill="#8172b3"/>
-<text x="726" y="592" class="legend">10k_hanzi_gpu1</text>
-<rect x="916" y="580" width="14" height="14" fill="#ccb974"/>
-<text x="936" y="592" class="legend">10k_initials_gpu1</text>
-<rect x="1126" y="580" width="14" height="14" fill="#64b5cd"/>
-<text x="1146" y="592" class="legend">10k_whitespace_false_gpu1</text>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="839.804893pt" height="339.59952pt" viewBox="0 0 839.804893 339.59952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>ZhoBLiMP Subtask Accuracy</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>ZhoBLiMP Subtask Accuracy</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 339.59952 
+L 839.804893 339.59952 
+L 839.804893 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 103.05 215.783553 
+L 760.081967 215.783553 
+L 760.081967 32.837812 
+L 103.05 32.837812 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p6305929057)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAA5EAAAD/CAYAAABoxFIIAAAI7ElEQVR4nO3ZS49kcxzG8XOqqrurLzO0mcwYTIxkkIhLZ9i4hAQ7OwmvQELMws7SC7CQELFlY2ElNoiwIxISkbgEkUgQwzCjW093T9fVW3hc8sPx+az/yZM+depUf3Pa4cbpeQNQrL+8UrIz3dst2ekvr5bsNE3NI7tr1226t1Oy00WDlbWSncnuhZKdrnniqcdKdt797OeSndFkVrLzyWuvluwcufO+kp2N646W7Lzy+B1NlZOPvlyyc+6j9zv1XX3n4x9LdnolKwAAAHSCiAQAACAmIgEAAIiJSAAAAGIiEgAAgJiIBAAAICYiAQAAiIlIAAAAYiISAACAmIgEAAAgJiIBAACIiUgAAABiIhIAAICYiAQAACAmIgEAAIiJSAAAAGIiEgAAgJiIBAAAICYiAQAAiIlIAAAAYiISAACAmIgEAAAgJiIBAACIiUgAAABiIhIAAICYiAQAACAmIgEAAIiJSAAAAGIiEgAAgJiIBAAAICYiAQAAiIlIAAAAYiISAACAmIgEAAAgJiIBAACIDfKjAMD/zWT3QtMlR++6v2Tnp3ffLtl54dlXSnauv+eekp3xdN50yf75X0p2LjtwvGTn8N1PNlWme7slO79++HzJziMvflCyc+8tl5fseBMJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAsXa4cXqeH4f/jt7CYsnObDIu2ekPl0t2eotLJTvj3zZLdtauPlmyc/HsmZKd/vJKyU5vMOjU/TbZ2S7ZmY72mypL64dLdtp+v2TnxM03lux8/sbrJTuL64dKdkab50t2Fg5e2qm/p8rBa28o2dn94duSnWY6rdlpmmb52FUlO5MLRb8P41HJzsrlV5bseBMJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxAb5UfhvmY1HNUNtWzIz3dst2ZmNiq7bfF4ys/fj9526D/bPnS3ZWT56RcnOznfflOysHr+mZGe0tdlUWb3pRMnO1leflex8/uYbnfptaIueCfPptFs7s5qdxUsuK9kZb2+V7HTRYPVAyc7emZr/E/orqyU7W19+WrLjTSQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADE2uHG6Xl+HODv0VtcKrmUs9F+yU7bH5TszKeTkh3+nMHqgbJLN9nZLtnpL6+W7PT6/ZKddlDzXR1tni/ZGR45VrJz8eyZkp226D6YT6clO137fCoNj1zRqWdPleOnTpXseBMJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxAb5Ufjr2n7dLTefTsq2+ONmo/1OXTb327/b4qWHSnYGq2tNlcnOdslOf2lYsjPe3izZGawdLNk5dOr2kp2tLz4p2WnatmRm/aZbS3bee+bhkp2Nh54u2VlcP1yys3LsyqbKgw/cVrLz0nMvl+ysHDtesvP1O2+V7HgTCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAALF2uHF6nh8H4J/UW1gs2ZmNRyU7bX9QsjOfTkp2FtYONlXGuxdKdtq216nPqEpvaViys7B2oGRn/9zPTZesnThZsjPZ3SnZuXj2TNM1C5esl+zMx+Oandm0ZOfwbXeW7HgTCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAAMREJAAAADERCQAAQExEAgAAEBORAAAAxEQkAAAAMREJAABATEQCAAAQE5EAAADERCQAAAAxEQkAAEBMRAIAABATkQAAADSp3wH0+N8LFPFaOgAAAABJRU5ErkJggg==" id="image9f06b7e370" transform="scale(1 -1) translate(0 -183.6)" x="103.05" y="-32.183553" width="657.36" height="183.6"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="117.591243" y="222.5048" transform="rotate(-58 117.591243 222.5048)">BA meiba</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="136.363585" y="222.5048" transform="rotate(-58 136.363585 222.5048)">ellipsis double object</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="155.135927" y="222.5048" transform="rotate(-58 155.135927 222.5048)">principle A c command</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="173.908269" y="222.5048" transform="rotate(-58 173.908269 222.5048)">principle A domain</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="192.680611" y="222.5048" transform="rotate(-58 192.680611 222.5048)">question A not A indirect</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="211.452953" y="222.5048" transform="rotate(-58 211.452953 222.5048)">BA duplicate argument</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="230.225295" y="222.5048" transform="rotate(-58 230.225295 222.5048)">fci renhe suoyou</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="248.997637" y="222.5048" transform="rotate(-58 248.997637 222.5048)">BA suo adverbial b</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="267.769979" y="222.5048" transform="rotate(-58 267.769979 222.5048)">question A not A</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="286.54232" y="222.5048" transform="rotate(-58 286.54232 222.5048)">BA verb le a</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="305.314662" y="222.5048" transform="rotate(-58 305.314662 222.5048)">classifier noun subj</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="324.087004" y="222.5048" transform="rotate(-58 324.087004 222.5048)">BA suo adverbial a</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="342.859346" y="222.5048" transform="rotate(-58 342.859346 222.5048)">fci renhe ruguo</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="361.631688" y="222.5048" transform="rotate(-58 361.631688 222.5048)">nominal definite men</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="380.40403" y="222.5048" transform="rotate(-58 380.40403 222.5048)">plural cardinal men a</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="399.176372" y="222.5048" transform="rotate(-58 399.176372 222.5048)">relativization...</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+     <g id="text_17">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="417.948714" y="222.5048" transform="rotate(-58 417.948714 222.5048)">plural cardinal men b</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+     <g id="text_18">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="436.62459" y="222.444522" transform="rotate(-58 436.62459 222.444522)">you yige</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19"/>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="455.493398" y="222.5048" transform="rotate(-58 455.493398 222.5048)">control modal vs...</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20"/>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="474.265739" y="222.5048" transform="rotate(-58 474.265739 222.5048)">PN numP a</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21"/>
+     <g id="text_21">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="492.941616" y="222.444522" transform="rotate(-58 492.941616 222.444522)">BA no progressive</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22"/>
+     <g id="text_22">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="511.810423" y="222.5048" transform="rotate(-58 511.810423 222.5048)">principle A domain number</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23"/>
+     <g id="text_23">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="530.582765" y="222.5048" transform="rotate(-58 530.582765 222.5048)">BA no stative verb</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24"/>
+     <g id="text_24">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="549.355107" y="222.5048" transform="rotate(-58 549.355107 222.5048)">relativization...</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25"/>
+     <g id="text_25">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="568.127449" y="222.5048" transform="rotate(-58 568.127449 222.5048)">noun phrase...</text>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26"/>
+     <g id="text_26">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="586.899791" y="222.5048" transform="rotate(-58 586.899791 222.5048)">question daodi negation</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27"/>
+     <g id="text_27">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="605.672133" y="222.5048" transform="rotate(-58 605.672133 222.5048)">PN numP b</text>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28"/>
+     <g id="text_28">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="624.444475" y="222.5048" transform="rotate(-58 624.444475 222.5048)">singular PN but plural...</text>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_29"/>
+     <g id="text_29">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="643.216817" y="222.5048" transform="rotate(-58 643.216817 222.5048)">classifier noun agreement</text>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_30"/>
+     <g id="text_30">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="661.989158" y="222.5048" transform="rotate(-58 661.989158 222.5048)">question nandao negation</text>
+     </g>
+    </g>
+    <g id="xtick_31">
+     <g id="line2d_31"/>
+     <g id="text_31">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="680.7615" y="222.5048" transform="rotate(-58 680.7615 222.5048)">question nandao...</text>
+     </g>
+    </g>
+    <g id="xtick_32">
+     <g id="line2d_32"/>
+     <g id="text_32">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="699.533842" y="222.5048" transform="rotate(-58 699.533842 222.5048)">question daodi nandao 1</text>
+     </g>
+    </g>
+    <g id="xtick_33">
+     <g id="line2d_33"/>
+     <g id="text_33">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="718.306184" y="222.5048" transform="rotate(-58 718.306184 222.5048)">relative operator who</text>
+     </g>
+    </g>
+    <g id="xtick_34">
+     <g id="line2d_34"/>
+     <g id="text_34">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="737.078526" y="222.5048" transform="rotate(-58 737.078526 222.5048)">left dou</text>
+     </g>
+    </g>
+    <g id="xtick_35">
+     <g id="line2d_35"/>
+     <g id="text_35">
+      <text style="font-size: 8px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="755.850868" y="222.5048" transform="rotate(-58 755.850868 222.5048)">question V not VP 2</text>
+     </g>
+    </g>
+    <g id="text_36">
+     <text style="font-size: 11px; font-family: 'DejaVu Serif'; text-anchor: middle" x="431.565983" y="329.955457" transform="rotate(-0 431.565983 329.955457)">Subtask (ranked by mean accuracy across models)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_36"/>
+     <g id="text_37">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="49.704584" transform="rotate(-0 99.55 49.704584)">BABYLM</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_37"/>
+     <g id="text_38">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="75.83969" transform="rotate(-0 99.55 75.83969)">BABYLM-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_38"/>
+     <g id="text_39">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="101.974796" transform="rotate(-0 99.55 101.974796)">CHINESE</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_39"/>
+     <g id="text_40">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="128.109902" transform="rotate(-0 99.55 128.109902)">CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_40"/>
+     <g id="text_41">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="154.245007" transform="rotate(-0 99.55 154.245007)">2CHINESE-NoWS</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_41"/>
+     <g id="text_42">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="180.380113" transform="rotate(-0 99.55 180.380113)">INITIALS</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_42"/>
+     <g id="text_43">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: end; fill: #374151" x="99.55" y="206.515219" transform="rotate(-0 99.55 206.515219)">HANZI</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 600; font-size: 14px; font-family: 'DejaVu Serif'; text-anchor: middle" x="431.565983" y="17.837812" transform="rotate(-0 431.565983 17.837812)">ZhoBLiMP Subtask Accuracy (1/4)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 773.222606 215.783553 
+L 782.369893 215.783553 
+L 782.369893 32.837812 
+L 773.222606 32.837812 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA0AAAD+CAYAAADh7Y/LAAABE0lEQVR4nO1ZQQrEQAxyy/z/u3tYGBdKPxALwQnmLk6sZtL28/2RKNaqQ4BF1FEqU70WBaolMsH7eKyDtsYEaxtRAU10ORWmiSFEn/cixJvBQgWkMNUxyMM9JYTIVfMIoahnPsKYNeeN5FRACpMSwj3xzqX38TIs2zcWtDFlNzriDWCHabB6e2BP3kxUmHaY7op6Lx3BOmjiYGFCeFcGy1NxRL8jmGl0V0L4VEI4OoQcyOS95uwwHaEe2pZ5KB+boAgB957o/HDR9lEQ7j1RYLIO4VVGwL6n1RjCXf8doklOb+/BPU8Y5z1MzBPLmKmGpXdPUEDzDDvxouZIw7IHdJURsO9pzQwhBKa83h2xusF6sPwBrmcgrp5ja4EAAAAASUVORK5CYII=" id="imagea26eabaa56" transform="scale(1 -1) translate(0 -182.88)" x="773.28" y="-32.4" width="9.36" height="182.88"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_43">
+      <defs>
+       <path id="m411951ffde" d="M 0 0 
+L 3.5 0 
+" style="stroke: #374151; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m411951ffde" x="782.369893" y="215.783553" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_45">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.369893" y="219.582772" transform="rotate(-0 789.369893 219.582772)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.369893" y="179.194405" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.369893" y="182.993624" transform="rotate(-0 789.369893 182.993624)">20%</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.369893" y="142.605257" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.369893" y="146.404476" transform="rotate(-0 789.369893 146.404476)">40%</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.369893" y="106.016109" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.369893" y="109.815328" transform="rotate(-0 789.369893 109.815328)">60%</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.369893" y="69.426961" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.369893" y="73.226179" transform="rotate(-0 789.369893 73.226179)">80%</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#m411951ffde" x="782.369893" y="32.837812" style="fill: #374151; stroke: #374151; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #374151" x="789.369893" y="36.637031" transform="rotate(-0 789.369893 36.637031)">100%</text>
+     </g>
+    </g>
+    <g id="text_51">
+     <text style="font-size: 11px; font-family: 'DejaVu Serif'; text-anchor: middle" x="830.16083" y="124.310683" transform="rotate(-90 830.16083 124.310683)">Accuracy</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_4">
+    <path d="M 773.222606 215.783553 
+L 777.796249 215.783553 
+L 782.369893 215.783553 
+L 782.369893 32.837812 
+L 777.796249 32.837812 
+L 773.222606 32.837812 
+L 773.222606 215.783553 
+z
+" style="fill: none; stroke: #4b5563; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6305929057">
+   <rect x="103.05" y="32.837812" width="657.031967" height="182.945741"/>
+  </clipPath>
+ </defs>
 </svg>
